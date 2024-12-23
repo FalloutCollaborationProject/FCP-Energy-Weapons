@@ -11,7 +11,7 @@
         <description>The AEP7 laser pistol comes with a generous battery size, tight shot grouping at range, resilience to extended use, and fairly decent damage output, it is a very good choice for a sidearm and is used extensively in this role by the Brotherhood of Steel and the Enclave. Like other energy weapons, the laser pistol has the ability to reduce enemies to piles of steaming ash.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_Laser_Pistol</texPath>
+            <texPath>Things/Weapons/Laser/FCP_Laser_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -25,7 +25,7 @@
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
@@ -51,7 +51,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>17.0</range>
                 <soundCast>Shot_Laser</soundCast>
@@ -93,7 +93,7 @@
         <description>This unique laser pistol once belonged to a man who murdered people for their sunset sarsaparilla star bottle caps. It’s coloured red, looks scratched and worn and its focus adjustment knob was replaced with a bottle cap. Despite its ramshackle appearance, it’s projectiles hit extremely hard, but it fires much slower than the standard laser pistol.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_Pew_Pew</texPath>
+            <texPath>Things/Weapons/Laser/FCP_Pew_Pew</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -107,7 +107,7 @@
             <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -133,7 +133,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>15.0</range>
                 <soundCast>Shot_Laser</soundCast>
@@ -175,7 +175,7 @@
         <description>A staple of the pre-war armed forces, the laser rifle has become a somewhat unusual sight in the wasteland, especially one in good condition. They emit a concentrated beam of coherent light capable of severely damaging what- or whoever it was aimed at.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_Laser_Rifle</texPath>
+            <texPath>Things/Weapons/Laser/FCP_Laser_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -189,7 +189,7 @@
             <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -215,7 +215,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>25.9</range>
                 <soundCast>Shot_Laser</soundCast>
@@ -257,7 +257,7 @@
         <description>A unique, light grey prototype laser rifle with orange trims. It also has two circuit chips taped to its stock, which are connected to the rest of the weapon via wires. Its beams do a lot more damage and are of green color.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_AER14_Prototype</texPath>
+            <texPath>Things/Weapons/Laser/FCP_AER14_Prototype</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -271,7 +271,7 @@
             <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
@@ -297,7 +297,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
                 <warmupTime>1.5</warmupTime>
                 <range>30</range>
                 <soundCast>Shot_Laser</soundCast>
@@ -339,7 +339,7 @@
         <description>The tri-beam laser rifle appears to be a shortened laser rifle with a different emitter at its tip. It fires three beams of laser at once, serving as a high-tech alternative to shotguns. Like less advanced shotguns, the tri-beam laser rifle is best suited for combat over short ranges.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_Tri_Beam_Laser_Rifle</texPath>
+            <texPath>Things/Weapons/Laser/FCP_Tri_Beam_Laser_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -353,7 +353,7 @@
             <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -379,7 +379,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>17.9</range>
                 <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
@@ -423,7 +423,7 @@
         <description>A huge and heavy laser weapon reminiscent of Minigun and popular with the Brotherhood of Steel. Its individual shots do little damage, but this is entirely compensated by its extremely high rate of fire. It excels at the same areas as the Minigun, providing suppressing fire over short and medium distances.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_Gatling_Laser</texPath>
+            <texPath>Things/Weapons/Laser/FCP_Gatling_Laser_mkII</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -437,7 +437,7 @@
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
@@ -463,7 +463,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
                 <warmupTime>1.50</warmupTime>
                 <range>30.9</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -507,7 +507,7 @@
         <description>The Sprtel-Wood 9700 is a high-speed Gatling laser that shoots green lasers. It has an ammunition capacity of 90 electron charge packs and moderate weapon spread. The Sprtel-Wood 9700 can inflict 16 damage per hit in good condition, but it has a slightly below-average critical hit chance for an automatic weapon.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_Sprtel_Wood_9700a</texPath>
+            <texPath>Things/Weapons/Laser/FCP_Sprtel_Wood_9700a</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -521,7 +521,7 @@
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
@@ -547,7 +547,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Laser_S</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Laser_S</defaultProjectile>
                 <warmupTime>1.50</warmupTime>
                 <range>30.9</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -591,7 +591,7 @@
         <description>The laser rapid capacitor weapon is a strange gun that mimics a submachinegun. The unique feature of the RCW is the addition of a drum magazine, which gives this weapon its unique look, high rate of fire, and name. This weapon exhibits moderate accuracy due to a high spread for a laser weapon, making it useful for taking down enemies at almost any range.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_Laser_RCW</texPath>
+            <texPath>Things/Weapons/Laser/FCP_Laser_RCW</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -605,7 +605,7 @@
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -631,7 +631,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
                 <warmupTime>1.9</warmupTime>
                 <range>20.9</range>
                 <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
@@ -675,7 +675,7 @@
         <description>The recharger pistol is a compact version of the recharger rifle, featuring a microfusion breeder that replenishes its ammunition automatically, no reloading required. While it can fire rapidly, the projectiles do less damage compared to a laser pistol. The breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is considerable time in between those bursts. It is generally cheaper and more portable than the recharger rifle.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_Recharger_Rifle</texPath>
+            <texPath>Things/Weapons/Laser/FCP_Recharger_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -689,7 +689,7 @@
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -715,7 +715,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_MF_Breeder</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_MF_Breeder</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>25.9</range>
                 <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
@@ -754,7 +754,7 @@
         <description>The recharger rifle was the first energy weapon featuring a microfusion breeder. It replenishes its ammunition automatically, no reloading required. However, the underlying technology wasn’t very sophisticated yet. It can fire rapidly, but the projectiles do significantly less damage compared to a laser rifle. The inefficient breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is a considerably time in between those bursts. At least it usually is a lot cheaper than a laser rifle.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_Recharger_Pistol</texPath>
+            <texPath>Things/Weapons/Laser/FCP_Recharger_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -768,7 +768,7 @@
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -794,7 +794,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_MF_Breeder</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_MF_Breeder</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>16.9</range>
                 <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
@@ -833,7 +833,7 @@
         <description>This recharger pistol is the second version of a self-charging weapon, with effectively limitless ammunition. It is a more advanced and compact version of the recharger rifle, which is fitted with a microfusion breeder that provides virtually limitless power, as well as a 10-shot charge capacity. It takes 0.3 seconds to recharge one shot, and three seconds are required to recover from a fully discharged state. It will not recharge unless equipped and is not automatically charged when drawn. This causes a delay before the first shot can be fired.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Laser/FCP_MF_hyperbreeder_Alpha</texPath>
+            <texPath>Things/Weapons/Laser/FCP_MF_hyperbreeder_Alpha</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -847,7 +847,7 @@
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -873,7 +873,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_MF_Breeder</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_MF_Breeder</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>20.9</range>
                 <ticksBetweenBurstShots>14</ticksBetweenBurstShots>

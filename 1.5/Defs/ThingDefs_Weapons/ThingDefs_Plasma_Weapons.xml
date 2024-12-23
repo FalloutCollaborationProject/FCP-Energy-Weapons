@@ -15,7 +15,7 @@
             inflicting massive damage.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Plasma/FCP_Plasma_Pistol</texPath>
+            <texPath>Things/Weapons/Plasma/FCP_Plasma_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -29,7 +29,7 @@
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -55,7 +55,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Plasma</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>18.9</range>
                 <soundCast>Shot_Plasma</soundCast>
@@ -100,7 +100,7 @@
             However, it’s an exceptionally rare and expensive weapon usually reserved as a sidearm for high-ranking officers in high-tech groups such as the Enclave.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Plasma/FCP_Plasma_Defender</texPath>
+            <texPath>Things/Weapons/Plasma/FCP_Plasma_Defender</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -114,7 +114,7 @@
             <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -140,7 +140,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Plasma</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>17.9</range>
                 <soundCast>Shot_Plasma</soundCast>
@@ -186,7 +186,7 @@
             suited for experienced soldiers.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Plasma/FCP_Plasma_Rifle</texPath>
+            <texPath>Things/Weapons/Plasma/FCP_Plasma_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -200,7 +200,7 @@
             <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -226,7 +226,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Plasma</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>20.9</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -283,7 +283,7 @@
             average, but a more consistent delay between shots, an increase in active bolt charge
             time, increased accuracy and a 30% increase in bolt energy.</description>
         <graphicData>
-            <texPath>Plasma/FCP_Q35_Matter_Modulator</texPath>
+            <texPath>Things/Weapons/Plasma/FCP_Q35_Matter_Modulator</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -297,7 +297,7 @@
             <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
@@ -323,7 +323,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Plasma</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
                 <warmupTime>1.5</warmupTime>
                 <range>25.9</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -370,7 +370,7 @@
             short ranges.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Plasma/FCP_Multiplas_Rifle</texPath>
+            <texPath>Things/Weapons/Plasma/FCP_Multiplas_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
@@ -384,7 +384,7 @@
             <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -410,7 +410,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Plasma</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>15.9</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -457,7 +457,7 @@
             rifle, it fires both faster and harder-hitting, but is significantly less accurate.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
-            <texPath>Plasma/FCP_Plasma_Caster</texPath>
+            <texPath>Things/Weapons/Plasma/FCP_Plasma_Caster_mkII</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
@@ -472,7 +472,7 @@
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>ChargedShot</researchPrerequisite>
+            <researchPrerequisite>FCP_Tools_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
@@ -498,7 +498,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_Plasma</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
                 <warmupTime>1.50</warmupTime>
                 <range>35.9</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -532,23 +532,6 @@
                 <effectChance>0.65</effectChance>
             </li>
         </modExtensions>
-    </ThingDef>
-
-    <!-- Bullet -->
-
-    <ThingDef ParentName="BaseBullet">
-        <defName>Bullet_Plasma</defName>
-        <label>Plasma Cast</label>
-        <graphicData>
-            <texPath>Things/Projectile/FCP_Plasma</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <projectile>
-            <damageDef>Plasmaburn</damageDef>
-            <damageAmountBase>18</damageAmountBase>
-            <armorPenetrationBase>1.5</armorPenetrationBase>
-            <speed>55</speed>
-        </projectile>
     </ThingDef>
 
 </Defs>
