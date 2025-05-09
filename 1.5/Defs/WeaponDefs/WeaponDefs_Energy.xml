@@ -32,7 +32,7 @@
                 <Crafting>6</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
@@ -115,7 +115,7 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
@@ -198,7 +198,7 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
@@ -283,7 +283,7 @@
                 <Crafting>9</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
@@ -370,7 +370,7 @@
                 <Crafting>7</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
@@ -455,7 +455,7 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
@@ -535,7 +535,7 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
@@ -621,7 +621,7 @@
                 <Crafting>7</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
@@ -698,7 +698,7 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
@@ -781,7 +781,7 @@
                 <Crafting>9</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
@@ -870,7 +870,7 @@
                 <Crafting>9</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
+                <li>FCP_Production_Fabrication_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <costList>
