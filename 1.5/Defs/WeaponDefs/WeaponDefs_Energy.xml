@@ -44,7 +44,8 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Laser_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -126,7 +127,8 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Laser_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -208,7 +210,8 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Laser_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -292,7 +295,10 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Heavy_Energy_Weapon</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Heavy_Laser_Weapon</li>
+            <li>FCP_Laser_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -376,7 +382,8 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Laser_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -460,7 +467,8 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Recharger_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -539,7 +547,8 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Recharger_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -551,85 +560,6 @@
                 <defaultProjectile>FCP_Bullet_MF_Breeder</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>16.9</range>
-                <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
-                <burstShotCount>10</burstShotCount>
-                <soundCast>Shot_Laser</soundCast>
-                <soundCastTail>GunTail_Medium</soundCastTail>
-                <muzzleFlashScale>9</muzzleFlashScale>
-            </li>
-        </verbs>
-        <tools>
-            <li>
-                <label>stock</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>9</power>
-                <cooldownTime>2</cooldownTime>
-            </li>
-            <li>
-                <label>barrel</label>
-                <capacities>
-                    <li>Blunt</li>
-                    <li>Poke</li>
-                </capacities>
-                <power>9</power>
-                <cooldownTime>2</cooldownTime>
-            </li>
-        </tools>
-    </ThingDef>
-
-    <!-- MF Hyperbreeder Alpha -->
-
-    <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>FCP_Gun_MF_hyperbreeder_Alpha</defName>
-        <label>MF Hyperbreeder Alpha</label>
-        <description>This recharger pistol is the second version of a self-charging weapon, with effectively limitless ammunition. It is a more advanced and compact version of the recharger rifle, which is fitted with a microfusion breeder that provides virtually limitless power, as well as a 10-shot charge capacity. It takes 0.3 seconds to recharge one shot, and three seconds are required to recover from a fully discharged state. It will not recharge unless equipped and is not automatically charged when drawn. This causes a delay before the first shot can be fired.</description>
-        <techLevel>Industrial</techLevel>
-        <graphicData>
-            <texPath>Things/Weapons/Laser/FCP_MF_hyperbreeder_Alpha</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
-        <statBases>
-            <WorkToMake>110000</WorkToMake>
-            <Mass>1.6</Mass>
-            <AccuracyTouch>0.95</AccuracyTouch>
-            <AccuracyShort>0.90</AccuracyShort>
-            <AccuracyMedium>0.80</AccuracyMedium>
-            <AccuracyLong>0.75</AccuracyLong>
-            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
-        </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <costList>
-            <Plasteel>25</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-        </costList>
-        <thingSetMakerTags>
-            <li>RewardStandardLowFreq</li>
-            <li>RewardStandardQualitySuper</li>
-        </thingSetMakerTags>
-        <weaponTags>
-            <li>SpacerGun</li>
-        </weaponTags>
-        <weaponClasses>
-            <li>RangedLight</li>
-        </weaponClasses>
-        <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
-                <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_MF_Breeder</defaultProjectile>
-                <warmupTime>1.0</warmupTime>
-                <range>20.9</range>
                 <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
                 <soundCast>Shot_Laser</soundCast>
@@ -703,7 +633,8 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Plasma_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -730,47 +661,6 @@
                 <cooldownTime>2</cooldownTime>
             </li>
             <li>
-                <li>FabricationBench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <costList>
-            <Plasteel>25</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-        </costList>
-        <thingSetMakerTags>
-            <li>RewardStandardLowFreq</li>
-            <li>RewardStandardQualitySuper</li>
-        </thingSetMakerTags>
-        <weaponTags>
-            <li>SpacerGun</li>
-        </weaponTags>
-        <weaponClasses>
-            <li>RangedLight</li>
-        </weaponClasses>
-        <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
-                <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
-                <warmupTime>1.0</warmupTime>
-                <range>15.9</range>
-                <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-                <burstShotCount>3</burstShotCount>
-                <soundCast>Shot_Plasma</soundCast>
-                <soundCastTail>GunTail_Medium</soundCastTail>
-                <muzzleFlashScale>9</muzzleFlashScale>
-            </li>
-        </verbs>
-        <tools>
-            <li>
-                <label>stock</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>9</power>
-                <cooldownTime>2</cooldownTime>
-            </li>
-            <li>
                 <label>barrel</label>
                 <capacities>
                     <li>Blunt</li>
@@ -780,12 +670,6 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-        <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
-                <effectChance>0.20</effectChance>
-            </li>
-        </modExtensions>
-    </ThingDef>
 
     <!-- Plasma Rifle -->
 
@@ -826,7 +710,8 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Plasma_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -908,7 +793,8 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Plasma_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -996,7 +882,10 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>SpacerGun</li>
+            <li>FCP_Heavy_Energy_Weapon</li>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Heavy_Plasma_Weapon</li>
+            <li>FCP_Plasma_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
