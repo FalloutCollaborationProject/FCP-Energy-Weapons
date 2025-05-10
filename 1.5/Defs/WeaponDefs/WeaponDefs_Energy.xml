@@ -182,7 +182,7 @@
             <texPath>Things/Weapons/Laser/FCP_Tri_Beam_Laser_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Tri_Beam_Laser_Rifle</soundInteract>
         <statBases>
             <WorkToMake>70000</WorkToMake>
             <Mass>3.6</Mass>
@@ -225,7 +225,7 @@
                 <range>17.9</range>
                 <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
                 <burstShotCount>3</burstShotCount>
-                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Tri_Beam_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -267,7 +267,7 @@
             <texPath>Things/Weapons/Laser/FCP_Gatling_Laser_mkII</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
             <WorkToMake>95000</WorkToMake>
             <Mass>3.6</Mass>
@@ -312,7 +312,7 @@
                 <range>30.9</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <burstShotCount>15</burstShotCount>
-                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Pistol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -354,7 +354,7 @@
             <texPath>Things/Weapons/Laser/FCP_Laser_RCW</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Laser_RCW</soundInteract>
         <statBases>
             <WorkToMake>68000</WorkToMake>
             <Mass>1.6</Mass>
@@ -397,7 +397,7 @@
                 <range>20.9</range>
                 <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
-                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_RCW</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -439,7 +439,7 @@
             <texPath>Things/Weapons/Laser/FCP_Recharger_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Recharger_Rifle</soundInteract>
         <statBases>
             <WorkToMake>60000</WorkToMake>
             <Mass>2.1</Mass>
@@ -482,7 +482,7 @@
                 <range>25.9</range>
                 <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
-                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Recharger_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -519,7 +519,7 @@
             <texPath>Things/Weapons/Laser/FCP_Recharger_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Recharger_Pistol</soundInteract>
         <statBases>
             <WorkToMake>55000</WorkToMake>
             <Mass>1.6</Mass>
@@ -562,7 +562,7 @@
                 <range>16.9</range>
                 <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
-                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Recharger_Pistol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -605,7 +605,7 @@
             <texPath>Things/Weapons/Plasma/FCP_Plasma_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Plasma_Pistol</soundInteract>
         <statBases>
             <WorkToMake>50000</WorkToMake>
             <Mass>3.6</Mass>
@@ -646,7 +646,7 @@
                 <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>18.9</range>
-                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Plasma_Pistol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -688,7 +688,7 @@
             <texPath>Things/Weapons/Plasma/FCP_Plasma_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
         <statBases>
             <WorkToMake>70000</WorkToMake>
             <Mass>4.2</Mass>
@@ -729,7 +729,7 @@
                 <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>25.9</range>
-                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Plasma_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -771,7 +771,7 @@
             <texPath>Things/Weapons/Plasma/FCP_Multiplas_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Multiplas_Rifle</soundInteract>
         <statBases>
             <WorkToMake>85000</WorkToMake>
             <Mass>4.5</Mass>
@@ -814,7 +814,7 @@
                 <range>21.9</range>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                 <burstShotCount>3</burstShotCount>
-                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Multiplas_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -860,7 +860,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
         <statBases>
             <WorkToMake>90000</WorkToMake>
             <Mass>3.6</Mass>
@@ -905,7 +905,7 @@
                 <range>35.9</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <burstShotCount>4</burstShotCount>
-                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Plasma_Caster</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
