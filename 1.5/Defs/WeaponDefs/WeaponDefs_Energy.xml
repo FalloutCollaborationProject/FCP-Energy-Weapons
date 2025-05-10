@@ -16,7 +16,7 @@
             <texPath>Things/Weapons/Laser/FCP_Laser_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
         <statBases>
             <WorkToMake>45000</WorkToMake>
             <Mass>3.6</Mass>
@@ -27,7 +27,7 @@
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
@@ -57,7 +57,7 @@
                 <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>17.0</range>
-                <soundCast>Shot_Laser</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Pistol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -99,7 +99,7 @@
             <texPath>Things/Weapons/Laser/FCP_Laser_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
             <WorkToMake>65000</WorkToMake>
             <Mass>3.6</Mass>
@@ -110,7 +110,7 @@
             <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -140,7 +140,7 @@
                 <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>25.9</range>
-                <soundCast>Shot_Laser</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -193,7 +193,7 @@
             <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -225,7 +225,7 @@
                 <range>17.9</range>
                 <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
                 <burstShotCount>3</burstShotCount>
-                <soundCast>Shot_Laser</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -278,7 +278,7 @@
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
@@ -312,7 +312,7 @@
                 <range>30.9</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <burstShotCount>15</burstShotCount>
-                <soundCast>Shot_Laser</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -365,7 +365,7 @@
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -397,7 +397,7 @@
                 <range>20.9</range>
                 <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
-                <soundCast>Shot_Laser</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -450,7 +450,7 @@
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -482,7 +482,7 @@
                 <range>25.9</range>
                 <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
-                <soundCast>Shot_Laser</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -530,7 +530,7 @@
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Laser_Weapon_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -562,7 +562,7 @@
                 <range>16.9</range>
                 <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
-                <soundCast>Shot_Laser</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -616,7 +616,7 @@
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Plasma_Weapons_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -646,7 +646,7 @@
                 <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>18.9</range>
-                <soundCast>Shot_Plasma</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -670,6 +670,12 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <modExtensions>
+            <li Class="FalloutCore.DeathEffectModExtension">
+                <effectChance>0.30</effectChance>
+            </li>
+        </modExtensions>
+    </ThingDef>
 
     <!-- Plasma Rifle -->
 
@@ -693,7 +699,7 @@
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Plasma_Weapons_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -723,7 +729,7 @@
                 <defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>25.9</range>
-                <soundCast>Shot_Plasma</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -776,7 +782,7 @@
             <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Plasma_Weapons_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
@@ -808,7 +814,7 @@
                 <range>21.9</range>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                 <burstShotCount>3</burstShotCount>
-                <soundCast>Shot_Plasma</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -865,7 +871,7 @@
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
-            <researchPrerequisite>FCP_Tools_Plasma_Weapons_Manufacturing</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
@@ -899,7 +905,7 @@
                 <range>35.9</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <burstShotCount>4</burstShotCount>
-                <soundCast>Shot_Plasma</soundCast>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
