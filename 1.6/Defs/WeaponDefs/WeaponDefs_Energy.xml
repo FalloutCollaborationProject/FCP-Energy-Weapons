@@ -433,7 +433,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Recharger_Rifle</defName>
         <label>Recharger Rifle</label>
-        <description>The recharger pistol is a compact version of the recharger rifle, featuring a microfusion breeder that replenishes its ammunition automatically, no reloading required. While it can fire rapidly, the projectiles do less damage compared to a laser pistol. The breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is considerable time in between those bursts. It is generally cheaper and more portable than the recharger rifle.</description>
+       <description>The recharger rifle was the first energy weapon featuring a microfusion breeder. It replenishes its ammunition automatically, no reloading required. However, the underlying technology wasn’t very sophisticated yet. It can fire rapidly, but the projectiles do significantly less damage compared to a laser rifle. The inefficient breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is a considerably time in between those bursts. At least it usually is a lot cheaper than a laser rifle.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Recharger_Rifle</texPath>
@@ -513,7 +513,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Recharger_Pistol</defName>
         <label>Recharger Pistol</label>
-        <description>The recharger rifle was the first energy weapon featuring a microfusion breeder. It replenishes its ammunition automatically, no reloading required. However, the underlying technology wasn’t very sophisticated yet. It can fire rapidly, but the projectiles do significantly less damage compared to a laser rifle. The inefficient breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is a considerably time in between those bursts. At least it usually is a lot cheaper than a laser rifle.</description>
+        <description>The recharger pistol is a compact version of the recharger rifle, featuring a microfusion breeder that replenishes its ammunition automatically, no reloading required. While it can fire rapidly, the projectiles do less damage compared to a laser pistol. The breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is considerable time in between those bursts. It is generally cheaper and more portable than the recharger rifle.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Recharger_Pistol</texPath>
