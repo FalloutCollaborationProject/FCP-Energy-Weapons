@@ -887,17 +887,4 @@
         </modExtensions>
     </ThingDef>
 
-</Defs> <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Unique</rarity>
-            </li>
-        </comps>
-        <modExtensions>
-            <li Class="FCP.Core.UniqueThingExtension" />
-            <li Class="FalloutCore.DeathEffectModExtension">
-                <effectChance>0.70</effectChance>
-            </li>
-        </modExtensions>
-    </ThingDef>
-
 </Defs>
