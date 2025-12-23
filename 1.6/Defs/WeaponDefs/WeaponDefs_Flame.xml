@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Energy Weapons __________-->
+
+    <!--_____ Flame Weapons _____-->
+
+    <!-- Flamer Mk I -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Flamer_MkI</defName>
+        <label>Flamer Mk I</label>
+        <description>The Flamer Mk I is an early-generation incendiary weapon that sprays a stream of burning fuel at close to medium range. Favored by pre-war military forces for clearing trenches and fortifications, it excels at dealing with groups of enemies in confined spaces. Its crude but effective design makes it a terror on the battlefield.</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/Weapons/Flame/FCP_Flamer_mkI</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Energy_Based_Weaponry</li>
+            </researchPrerequisites>
+            <researchPrerequisite>FCP_Research_Energy_Based_Weaponry</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <recipeUsers>
+                <li>FCP_Production_Fabrication_Workbench</li>
+            </recipeUsers>
+            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <Mass>5.5</Mass>
+            <AccuracyTouch>0.90</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.50</AccuracyMedium>
+            <AccuracyLong>0.30</AccuracyLong>
+            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>70</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+            <Chemfuel>20</Chemfuel>
+        </costList>
+        <weaponTags>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Flame_Weapon</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <verbs>
+            <li>
+                <label>spray burning fuel</label>
+                <verbClass MayRequire="Ludeon.RimWorld.Biotech">Verb_SpewFire</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <range>12.9</range>
+                <warmupTime>1.2</warmupTime>
+                <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+                <soundCast>Shot_FirefoamPopper</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li MayRequire="Ludeon.RimWorld.Biotech" Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>10.0</fuelConsumptionRate>
+                <fuelCapacity>60.0</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </fuelFilter>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Flamer Mk II -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Flamer_MkII</defName>
+        <label>Flamer Mk II</label>
+        <description>An improved version of the original flamer design, the Mk II features enhanced fuel efficiency, greater range, and more consistent flame projection. Popular among pre-war assault teams and post-war scavengers alike, it represents the pinnacle of portable incendiary weapon technology before the war.</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/Weapons/Flame/FCP_Flamer_mkII</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Energy_Based_Weaponry</li>
+            </researchPrerequisites>
+            <researchPrerequisite>FCP_Research_Energy_Based_Weaponry</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <recipeUsers>
+                <li>FCP_Production_Fabrication_Workbench</li>
+            </recipeUsers>
+            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <Mass>5.0</Mass>
+            <AccuracyTouch>0.92</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.60</AccuracyMedium>
+            <AccuracyLong>0.35</AccuracyLong>
+            <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>80</Steel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <Chemfuel>25</Chemfuel>
+        </costList>
+        <weaponTags>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Flame_Weapon</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <verbs>
+            <li>
+                <label>spray burning fuel</label>
+                <verbClass MayRequire="Ludeon.RimWorld.Biotech">Verb_SpewFire</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <range>15.9</range>
+                <warmupTime>1.0</warmupTime>
+                <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+                <soundCast>Shot_FirefoamPopper</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li MayRequire="Ludeon.RimWorld.Biotech" Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>8.0</fuelConsumptionRate>
+                <fuelCapacity>80.0</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </fuelFilter>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Heavy Incinerator -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Heavy_Incinerator</defName>
+        <label>Heavy Incinerator</label>
+        <description>The Heavy Incinerator is a unique and devastating pre-war heavy flamethrower issued to elite Enclave Hellfire units. Built with reinforced components and an advanced fuel delivery system, it projects an intense stream of fire over considerable distances. This weapon is both a symbol of terror and a masterpiece of destructive engineering, capable of reducing enemies to ash.</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/Weapons/Flame/FCP_Heavy_Incinerator</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <Mass>6.5</Mass>
+            <AccuracyTouch>0.95</AccuracyTouch>
+            <AccuracyShort>0.85</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.45</AccuracyLong>
+            <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Flame_Weapon</li>
+            <li>FCP_Unique_Weapon</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <label>spray burning fuel</label>
+                <verbClass MayRequire="Ludeon.RimWorld.Biotech">Verb_SpewFire</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <range>18.9</range>
+                <warmupTime>0.8</warmupTime>
+                <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+                <soundCast>Shot_FirefoamPopper</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li MayRequire="Ludeon.RimWorld.Biotech" Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>6.0</fuelConsumptionRate>
+                <fuelCapacity>100.0</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </fuelFilter>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+    </ThingDef>
+
+</Defs>
