@@ -1036,7 +1036,7 @@
     <!-- Sprtel-Wood 9700 -->
 
     <ThingDef ParentName="BaseGun">
-        <defName>FCP_Gun_Sprtel_Wood_9700</defName>
+        <defName>FCP_Gun_Sprtel_Wood_9700_Unique</defName>
         <label>Sprtel-Wood 9700</label>
         <description>A civilian laser pistol manufactured by Sprtel-Wood, the 9700 model was marketed as a home defense weapon before the war. While not as powerful as military-grade energy weapons, its reliability and ease of use made it popular among settlers and traders.</description>
         <techLevel>Industrial</techLevel>
