@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Energy Weapons __________-->
+
+    <!--_____ FCP Pulse Weapons _____-->
+
+    <!-- YK32 Pulse Pistol -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_YK32_Pulse_Pistol</defName>
+        <label>YK32 Pulse Pistol</label>
+        <description>The YK32 is a compact electromagnetic pulse weapon designed for close-quarters anti-mechanoid combat. It fires concentrated electromagnetic pulses that disrupt electronic systems and neural implants while dealing moderate kinetic damage. Particularly effective against mechanoids and shielded targets, though less lethal against unarmored organic targets than conventional weapons.</description>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>Things/Weapons/Pulse/FCP_YK32_Pulse_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <statBases>
+            <WorkToMake>75000</WorkToMake>
+            <Mass>2.8</Mass>
+            <AccuracyTouch>0.88</AccuracyTouch>
+            <AccuracyShort>0.82</AccuracyShort>
+            <AccuracyMedium>0.68</AccuracyMedium>
+            <AccuracyLong>0.52</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_Energy_Based_Weaponry</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>FCP_Production_Fabrication_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <costList>
+            <Plasteel>40</Plasteel>
+            <ComponentSpacer>5</ComponentSpacer>
+        </costList>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <weaponTags>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Pulse_Weapon</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>RangedLight</li>
+        </weaponClasses>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_EMPLauncher</defaultProjectile>
+                <warmupTime>1.0</warmupTime>
+                <range>22.9</range>
+                <soundCast>Shot_ChargeBlaster</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FalloutCore.DeathEffectModExtension">
+                <effectChance>0.25</effectChance>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- YK42B Pulse Rifle -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_YK42B_Pulse_Rifle</defName>
+        <label>YK42B Pulse Rifle</label>
+        <description>The YK42B represents the pinnacle of pre-War electromagnetic pulse weaponry. This military-grade pulse rifle fires high-intensity electromagnetic bursts capable of catastrophically disrupting mechanoid systems and neural networks at medium range. Its advanced capacitor array allows for sustained anti-mechanoid operations, making it invaluable in conflicts against automated forces. The weapon is particularly devastating against shielded and electronic targets, though its reduced lethality against unarmored organics limits its versatility.</description>
+        <techLevel>Spacer</techLevel>
+        <graphicData>
+            <texPath>Things/Weapons/Pulse/FCP_YK42_Pulse_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_ChargeRifle</soundInteract>
+        <statBases>
+            <WorkToMake>95000</WorkToMake>
+            <Mass>4.5</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.88</AccuracyShort>
+            <AccuracyMedium>0.82</AccuracyMedium>
+            <AccuracyLong>0.72</AccuracyLong>
+            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_Energy_Based_Weaponry</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>11</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>FCP_Production_Fabrication_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <costList>
+            <Plasteel>60</Plasteel>
+            <ComponentSpacer>8</ComponentSpacer>
+        </costList>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <weaponTags>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Pulse_Weapon</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>RangedLight</li>
+        </weaponClasses>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_EMPLauncher</defaultProjectile>
+                <warmupTime>1.2</warmupTime>
+                <range>30.9</range>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <soundCast>Shot_ChargeBlaster</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FalloutCore.DeathEffectModExtension">
+                <effectChance>0.30</effectChance>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

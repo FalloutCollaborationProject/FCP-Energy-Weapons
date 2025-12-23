@@ -807,9 +807,9 @@
         </modExtensions>
     </ThingDef>
 
-    <!-- PMG - Plasma Machine Gun (Unique) -->
+    <!-- PMG - Plasma Machine Gun -->
 
-    <ThingDef ParentName="BaseGun">
+    <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Plasma_Machine_Gun</defName>
         <label>Plasma Machine Gun</label>
         <description>The Plasma Machine Gun (PMG) is an experimental automatic plasma weapon that combines the rapid-fire capability of conventional machine guns with the devastating power of plasma technology. Using a revolutionary multi-cathode cyclic firing system, it can sustain fully automatic plasma fire at the cost of significant weight and power consumption. This unique heavy weapon was abandoned before mass production due to its extreme complexity.</description>
@@ -821,6 +821,7 @@
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
         <statBases>
+            <WorkToMake>120000</WorkToMake>
             <Mass>6.5</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -828,17 +829,15 @@
             <AccuracyLong>0.40</AccuracyLong>
             <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
         </statBases>
-        <smeltable>false</smeltable>
-        <thingSetMakerTags>
-            <li>RewardStandardLowFreq</li>
-            <li>RewardStandardQualitySuper</li>
-        </thingSetMakerTags>
+        <recipeMaker>
+            <researchPrerequisite>FCP_Research_Plasma_Weapons_Manufacturing</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>11</Crafting>
         <weaponTags>
             <li>FCP_Heavy_Energy_Weapon</li>
             <li>FCP_Energy_Weapon</li>
             <li>FCP_Heavy_Plasma_Weapon</li>
             <li>FCP_Plasma_Weapon</li>
-            <li>FCP_Unique_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedHeavy</li>
@@ -877,6 +876,18 @@
             </li>
         </tools>
         <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FalloutCore.DeathEffectModExtension">
+                <effectChance>0.70</effectChance>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs> <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Unique</rarity>
             </li>
