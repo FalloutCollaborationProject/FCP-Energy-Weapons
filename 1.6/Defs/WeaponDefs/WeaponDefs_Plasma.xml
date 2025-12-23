@@ -557,7 +557,7 @@
     <!-- Glock 86 Plasma Pistol -->
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>FCP_Gun_Glock_86</defName>
+        <defName>FCP_Gun_Glock_86_Plasma_Pistol</defName>
         <label>Glock 86 Plasma Pistol</label>
         <description>A pre-War German-designed plasma pistol that represents the pinnacle of compact energy weapon engineering. The Glock 86 features revolutionary magnetic field stabilization that dramatically improves accuracy and reduces cooldown time compared to standard plasma pistols. This exceptionally rare weapon was never mass-produced.</description>
         <techLevel>Spacer</techLevel>
@@ -645,7 +645,7 @@
     <!-- P-94 Plasma Rifle -->
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>FCP_Gun_P_94</defName>
+        <defName>FCP_Gun_P_94_Plasma_Rifle</defName>
         <label>P-94 Plasma Rifle</label>
         <description>An experimental plasma rifle prototype featuring an enhanced magnetic field generator and advanced plasma containment system. The P-94 fires more powerful plasma bolts with greater stability than standard plasma rifles. This unique weapon never progressed beyond field testing due to its complex maintenance requirements.</description>
         <techLevel>Spacer</techLevel>
@@ -810,8 +810,8 @@
     <!-- PMG - Plasma Machine Gun (Unique) -->
 
     <ThingDef ParentName="BaseGun">
-        <defName>FCP_Gun_PMG</defName>
-        <label>PMG</label>
+        <defName>FCP_Gun_Plasma_Machine_Gun</defName>
+        <label>Plasma Machine Gun</label>
         <description>The Plasma Machine Gun (PMG) is an experimental automatic plasma weapon that combines the rapid-fire capability of conventional machine guns with the devastating power of plasma technology. Using a revolutionary multi-cathode cyclic firing system, it can sustain fully automatic plasma fire at the cost of significant weight and power consumption. This unique heavy weapon was abandoned before mass production due to its extreme complexity.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
