@@ -829,10 +829,25 @@
             <AccuracyLong>0.40</AccuracyLong>
             <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>80</Steel>
+            <ComponentIndustrial>15</ComponentIndustrial>
+            <ComponentSpacer>8</ComponentSpacer>
+            <Plasteel>40</Plasteel>
+            <Gold>15</Gold>
+        </costList>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_Plasma_Weapons_Manufacturing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>11</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <smeltProducts>
+            <Steel>40</Steel>
+            <ComponentIndustrial>7</ComponentIndustrial>
+            <ComponentSpacer>4</ComponentSpacer>
+            <Plasteel>20</Plasteel>
+        </smeltProducts>
         <weaponTags>
             <li>FCP_Heavy_Energy_Weapon</li>
             <li>FCP_Energy_Weapon</li>

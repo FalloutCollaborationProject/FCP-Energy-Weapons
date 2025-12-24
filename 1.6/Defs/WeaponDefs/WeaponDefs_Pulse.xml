@@ -90,6 +90,7 @@
             <li Class="FalloutCore.DeathEffectModExtension">
                 <effectChance>0.25</effectChance>
             </li>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -180,6 +181,7 @@
             <li Class="FalloutCore.DeathEffectModExtension">
                 <effectChance>0.30</effectChance>
             </li>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
