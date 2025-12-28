@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!--__________ Energy Weapons __________-->
@@ -340,6 +340,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_M72_A2_Gauss_Rifle</defName>
+        <useHitPoints>false</useHitPoints>
         <label>M72 A2 Gauss Rifle</label>
         <description>An experimental prototype of the M72 Gauss rifle featuring advanced magnetic coil configuration and enhanced power cell efficiency. The M72 A2 represents the pinnacle of pre-War electromagnetic weapon technology, with improved accuracy and greater armor penetration than its standard counterpart. Only a handful were ever produced before the Great War.</description>
         <techLevel>Industrial</techLevel>
@@ -355,6 +356,8 @@
             <AccuracyMedium>0.92</AccuracyMedium>
             <AccuracyLong>0.90</AccuracyLong>
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
         </statBases>
         <smeltable>false</smeltable>
         <thingSetMakerTags>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!--__________ Energy Weapons __________-->
@@ -18,6 +18,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
         <statBases>
+            <MarketValue>1200</MarketValue>
             <WorkToMake>45000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
@@ -458,7 +459,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Recharger_Rifle</defName>
         <label>Recharger Rifle</label>
-       <description>The recharger rifle was the first energy weapon featuring a microfusion breeder. It replenishes its ammunition automatically, no reloading required. However, the underlying technology wasn’t very sophisticated yet. It can fire rapidly, but the projectiles do significantly less damage compared to a laser rifle. The inefficient breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is a considerably time in between those bursts. At least it usually is a lot cheaper than a laser rifle.</description>
+        <description>The recharger rifle was the first energy weapon featuring a microfusion breeder. It replenishes its ammunition automatically, no reloading required. However, the underlying technology wasn’t very sophisticated yet. It can fire rapidly, but the projectiles do significantly less damage compared to a laser rifle. The inefficient breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is a considerably time in between those bursts. At least it usually is a lot cheaper than a laser rifle.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Recharger_Rifle</texPath>
@@ -627,6 +628,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_AER14_Prototype</defName>
+        <useHitPoints>false</useHitPoints>
         <label>AER14 Prototype</label>
         <description>An experimental variant of the AER laser rifle series, the AER14 prototype features improved focusing crystals and an advanced energy regulator. It delivers greater accuracy and damage than standard laser rifles, though its prototype status makes it rare and expensive to produce.</description>
         <techLevel>Industrial</techLevel>
@@ -642,6 +644,8 @@
             <AccuracyMedium>0.80</AccuracyMedium>
             <AccuracyLong>0.75</AccuracyLong>
             <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
         </statBases>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
@@ -883,6 +887,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_MF_Hyperbreeder_Alpha</defName>
+        <useHitPoints>false</useHitPoints>
         <label>MF Hyperbreeder Alpha</label>
         <description>An advanced experimental weapon featuring a revolutionary hyperbreeder energy cell that regenerates ammunition at an unprecedented rate. This unique pistol can sustain continuous fire far longer than conventional energy weapons, though each shot is relatively weak. Its futuristic design and exceptional reliability make it a prized possession.</description>
         <techLevel>Spacer</techLevel>
@@ -898,6 +903,8 @@
             <AccuracyMedium>0.72</AccuracyMedium>
             <AccuracyLong>0.65</AccuracyLong>
             <RangedWeapon_Cooldown>0.55</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
         </statBases>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
@@ -961,6 +968,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_Pew_Pew</defName>
+        <useHitPoints>false</useHitPoints>
         <label>Pew Pew</label>
         <description>An unusually styled energy pistol with distinctive blue coloring. Despite its toy-like name and appearance, the Pew Pew delivers surprisingly powerful shots using an advanced energy focusing system. Its unique design makes it a conversation piece as much as a weapon.</description>
         <techLevel>Industrial</techLevel>
@@ -976,6 +984,8 @@
             <AccuracyMedium>0.68</AccuracyMedium>
             <AccuracyLong>0.55</AccuracyLong>
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
         </statBases>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
@@ -1037,6 +1047,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_Sprtel_Wood_9700_Unique</defName>
+        <useHitPoints>false</useHitPoints>
         <label>Sprtel-Wood 9700</label>
         <description>A civilian laser pistol manufactured by Sprtel-Wood, the 9700 model was marketed as a home defense weapon before the war. While not as powerful as military-grade energy weapons, its reliability and ease of use made it popular among settlers and traders.</description>
         <techLevel>Industrial</techLevel>
@@ -1052,6 +1063,8 @@
             <AccuracyMedium>0.58</AccuracyMedium>
             <AccuracyLong>0.45</AccuracyLong>
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
         </statBases>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
@@ -1201,6 +1214,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_Wattz_2000_Laser_Rifle</defName>
+        <useHitPoints>false</useHitPoints>
         <label>Wattz 2000 Laser Rifle</label>
         <description>The rifle variant of Wattz Electronics' laser weapon line, the 2000 model features an extended barrel and improved power cell. While using older technology than modern AER series rifles, the Wattz 2000 remains a capable weapon favored for its durability and ease of maintenance.</description>
         <techLevel>Industrial</techLevel>
@@ -1216,6 +1230,8 @@
             <AccuracyMedium>0.72</AccuracyMedium>
             <AccuracyLong>0.66</AccuracyLong>
             <RangedWeapon_Cooldown>0.92</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
         </statBases>
         <smeltable>false</smeltable>
         <thingSetMakerTags>

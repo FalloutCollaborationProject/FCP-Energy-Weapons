@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!--__________ Energy Weapons __________-->
@@ -217,6 +217,7 @@
 
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_Heavy_Incinerator</defName>
+        <useHitPoints>false</useHitPoints>
         <label>Heavy Incinerator</label>
         <description>The Heavy Incinerator is a unique and devastating pre-war heavy flamethrower issued to elite Enclave Hellfire units. Built with reinforced components and an advanced fuel delivery system, it projects an intense stream of fire over considerable distances. This weapon is both a symbol of terror and a masterpiece of destructive engineering, capable of reducing enemies to ash.</description>
         <techLevel>Industrial</techLevel>
@@ -235,6 +236,8 @@
             <AccuracyMedium>0.70</AccuracyMedium>
             <AccuracyLong>0.45</AccuracyLong>
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
         </statBases>
         <weaponTags>
             <li>FCP_Energy_Weapon</li>
