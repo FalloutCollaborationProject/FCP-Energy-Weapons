@@ -363,7 +363,11 @@
 			<li Class="FCP.Core.CompProperties_LabelColored">
 				<rarity>Rare</rarity>
 			</li>
-		</comps>
+            <li Class="FCPWeaponPositioner.CompProperties_PositionAttributes">
+                <!-- <DraftedDrawOffset>(0.5, 0)</DraftedDrawOffset> -->
+                <HeldDrawOffset>(0.2, -0.3)</HeldDrawOffset>
+            </li>
+        </comps>
 		<modExtensions>
 			<li Class="FalloutCore.DeathEffectModExtension">
 				<effectChance>0.65</effectChance>
@@ -821,7 +825,6 @@
 			<texPath>Things/Weapons/Plasma/FCP_PMG</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<equippedAngleOffset>45</equippedAngleOffset>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
 		<statBases>
 			<WorkToMake>120000</WorkToMake>

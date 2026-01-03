@@ -54,7 +54,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
                 <warmupTime>0.8</warmupTime>
                 <range>22.0</range>
                 <soundCast>Shot_ChargeBlaster</soundCast>
@@ -138,7 +138,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
                 <warmupTime>1.2</warmupTime>
                 <range>38.0</range>
                 <soundCast>Shot_ChargeBlaster</soundCast>
@@ -222,7 +222,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
                 <warmupTime>2.0</warmupTime>
                 <range>30.0</range>
                 <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
@@ -300,7 +300,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
                 <warmupTime>1.5</warmupTime>
                 <range>48.0</range>
                 <soundCast>Shot_ChargeBlaster</soundCast>
@@ -376,7 +376,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Bullet_ChargeBlasterHeavy</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>42.0</range>
                 <soundCast>Shot_ChargeBlaster</soundCast>

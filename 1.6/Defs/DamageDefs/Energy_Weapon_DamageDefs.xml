@@ -20,7 +20,6 @@
         <armorCategory>Heat</armorCategory>
         <buildingDamageFactor>2</buildingDamageFactor>
         <minDamageToFragment>15</minDamageToFragment>
-        <defaultArmorPenetration>0.6</defaultArmorPenetration>
         <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
         <explosionCellFleck>BlastFlame</explosionCellFleck>
         <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
@@ -47,7 +46,6 @@
         <armorCategory>Heat</armorCategory>
         <minDamageToFragment>15</minDamageToFragment>
         <defaultDamage>10</defaultDamage>
-        <defaultArmorPenetration>0</defaultArmorPenetration>
         <explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
         <explosionCellFleck>BlastFlame</explosionCellFleck>
         <explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
