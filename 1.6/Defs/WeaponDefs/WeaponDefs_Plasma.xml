@@ -556,8 +556,6 @@
 		</modExtensions>
 	</ThingDef>
 
-	<!--_____ Unique Plasma Weapons _____-->
-
 	<!-- Glock 86 Plasma Pistol -->
 
 	<ThingDef ParentName="BaseHumanMakeableGun">
@@ -723,6 +721,10 @@
 			</li>
 		</tools>
 		<comps>
+            <li Class="FCPWeaponPositioner.CompProperties_PositionAttributes">
+                <!-- <DraftedDrawOffset>(0.5, 0)</DraftedDrawOffset> -->
+                <HeldDrawOffset>(0.2, -0.3)</HeldDrawOffset>
+            </li>
 			<li Class="FCP.Core.CompProperties_LabelColored">
 				<rarity>Rare</rarity>
 			</li>
@@ -733,6 +735,8 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+
+	<!--_____ Unique Plasma Weapons _____-->
 
 	<!-- Q-35 Matter Modulator (Unique) -->
 

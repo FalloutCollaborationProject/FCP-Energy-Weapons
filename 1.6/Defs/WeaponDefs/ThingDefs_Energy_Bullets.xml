@@ -14,8 +14,8 @@
         </graphicData>
         <projectile>
             <damageDef>FCP_Damage_Laser_Burn</damageDef>
-            <damageAmountBase>14</damageAmountBase>
-            <armorPenetrationBase>1.5</armorPenetrationBase>
+            <damageAmountBase>21</damageAmountBase>
+            <armorPenetrationBase>0.28</armorPenetrationBase>
             <speed>70</speed>
         </projectile>
     </ThingDef>
@@ -48,8 +48,8 @@
         </graphicData>
         <projectile>
             <damageDef>FCP_Damage_Laser_Burn</damageDef>
-            <damageAmountBase>18</damageAmountBase>
-            <armorPenetrationBase>2.0</armorPenetrationBase>
+            <damageAmountBase>25</damageAmountBase>
+            <armorPenetrationBase>0.35</armorPenetrationBase>
             <speed>75</speed>
         </projectile>
     </ThingDef>
@@ -67,8 +67,8 @@
         </graphicData>
         <projectile>
             <damageDef>FCP_Damage_Plasma_Burn</damageDef>
-            <damageAmountBase>22</damageAmountBase>
-            <armorPenetrationBase>2.3</armorPenetrationBase>
+            <damageAmountBase>27</damageAmountBase>
+            <armorPenetrationBase>0.50</armorPenetrationBase>
             <speed>55</speed>
         </projectile>
     </ThingDef>
@@ -86,10 +86,10 @@
         </graphicData>
         <projectile>
             <damageDef>Bullet</damageDef>
-            <damageAmountBase>28</damageAmountBase>
-            <armorPenetrationBase>2.5</armorPenetrationBase>
+            <damageAmountBase>22</damageAmountBase>
+            <armorPenetrationBase>0.75</armorPenetrationBase>
             <speed>100</speed>
-            <stoppingPower>2.0</stoppingPower>
+            <stoppingPower>2.5</stoppingPower>
         </projectile>
     </ThingDef>
 

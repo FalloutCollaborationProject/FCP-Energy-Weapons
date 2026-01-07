@@ -24,7 +24,7 @@
             <AccuracyShort>0.82</AccuracyShort>
             <AccuracyMedium>0.70</AccuracyMedium>
             <AccuracyLong>0.55</AccuracyLong>
-            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_Gauss_Weapons_Manufacturing</researchPrerequisite>
@@ -55,7 +55,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
-                <warmupTime>0.8</warmupTime>
+                <warmupTime>1.0</warmupTime>
                 <range>22.0</range>
                 <soundCast>Shot_ChargeBlaster</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
@@ -107,7 +107,7 @@
             <AccuracyShort>0.82</AccuracyShort>
             <AccuracyMedium>0.88</AccuracyMedium>
             <AccuracyLong>0.85</AccuracyLong>
-            <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_Gauss_Weapons_Manufacturing</researchPrerequisite>
@@ -139,7 +139,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
-                <warmupTime>1.2</warmupTime>
+                <warmupTime>1.5</warmupTime>
                 <range>38.0</range>
                 <soundCast>Shot_ChargeBlaster</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -191,7 +191,7 @@
             <AccuracyShort>0.70</AccuracyShort>
             <AccuracyMedium>0.65</AccuracyMedium>
             <AccuracyLong>0.50</AccuracyLong>
-            <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_Gauss_Weapons_Manufacturing</researchPrerequisite>
@@ -223,9 +223,9 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
-                <warmupTime>2.0</warmupTime>
+                <warmupTime>2.3</warmupTime>
                 <range>30.0</range>
-                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <burstShotCount>15</burstShotCount>
                 <soundCast>Shot_Minigun</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -269,7 +269,7 @@
             <AccuracyShort>0.85</AccuracyShort>
             <AccuracyMedium>0.92</AccuracyMedium>
             <AccuracyLong>0.95</AccuracyLong>
-            <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_Gauss_Weapons_Manufacturing</researchPrerequisite>
@@ -301,7 +301,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
-                <warmupTime>1.5</warmupTime>
+                <warmupTime>1.8</warmupTime>
                 <range>48.0</range>
                 <soundCast>Shot_ChargeBlaster</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -355,7 +355,7 @@
             <AccuracyShort>0.88</AccuracyShort>
             <AccuracyMedium>0.92</AccuracyMedium>
             <AccuracyLong>0.90</AccuracyLong>
-            <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
             <DeteriorationRate>0</DeteriorationRate>
             <Flammability>0</Flammability>
         </statBases>
@@ -377,7 +377,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
-                <warmupTime>1.0</warmupTime>
+                <warmupTime>1.3</warmupTime>
                 <range>42.0</range>
                 <soundCast>Shot_ChargeBlaster</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
