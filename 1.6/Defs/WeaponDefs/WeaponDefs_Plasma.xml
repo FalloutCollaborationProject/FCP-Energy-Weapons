@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!--__________ Energy Weapons __________-->
@@ -282,7 +282,7 @@
 		<label>Plasma Caster</label>
 		<description>The plasma caster functions very similar to its rifle-based counterpart. 
             It was first developed as an industrial tool but was soon after downscaled 
-            and adapted as a weapon, it’s still very heavy though. Compared to the plasma 
+            and adapted as a weapon, it�s still very heavy though. Compared to the plasma 
             rifle, it fires both faster and harder-hitting, but is significantly less accurate.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
