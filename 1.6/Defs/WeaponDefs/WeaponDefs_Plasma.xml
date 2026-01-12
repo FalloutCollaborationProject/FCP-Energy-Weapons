@@ -22,6 +22,7 @@
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Pistol</soundInteract>
 		<statBases>
+			<MarketValue>1200</MarketValue>
 			<WorkToMake>50000</WorkToMake>
 			<Mass>3.6</Mass>
 			<AccuracyTouch>0.80</AccuracyTouch>
@@ -109,7 +110,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
-		<statBases>
+		<statBases>			<MarketValue>1900</MarketValue>			<MarketValue>1600</MarketValue>
 			<WorkToMake>70000</WorkToMake>
 			<Mass>4.2</Mass>
 			<AccuracyTouch>0.85</AccuracyTouch>
@@ -198,6 +199,7 @@
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Multiplas_Rifle</soundInteract>
 		<statBases>
+			<MarketValue>1800</MarketValue>
 			<WorkToMake>85000</WorkToMake>
 			<Mass>4.5</Mass>
 			<AccuracyTouch>0.80</AccuracyTouch>
@@ -282,7 +284,7 @@
 		<label>Plasma Caster</label>
 		<description>The plasma caster functions very similar to its rifle-based counterpart. 
             It was first developed as an industrial tool but was soon after downscaled 
-            and adapted as a weapon, it’s still very heavy though. Compared to the plasma 
+            and adapted as a weapon, itï¿½s still very heavy though. Compared to the plasma 
             rifle, it fires both faster and harder-hitting, but is significantly less accurate.</description>
 		<techLevel>Industrial</techLevel>
 		<graphicData>
@@ -388,6 +390,7 @@
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Pistol</soundInteract>
 		<statBases>
+			<MarketValue>1300</MarketValue>
 			<WorkToMake>55000</WorkToMake>
 			<Mass>3.2</Mass>
 			<AccuracyTouch>0.85</AccuracyTouch>
@@ -477,6 +480,7 @@
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
 		<statBases>
+			<MarketValue>2000</MarketValue>
 			<WorkToMake>80000</WorkToMake>
 			<Mass>4.8</Mass>
 			<AccuracyTouch>0.65</AccuracyTouch>
@@ -569,6 +573,7 @@
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Pistol</soundInteract>
 		<statBases>
+			<MarketValue>1400</MarketValue>
 			<WorkToMake>65000</WorkToMake>
 			<Mass>3.0</Mass>
 			<AccuracyTouch>0.90</AccuracyTouch>
@@ -657,6 +662,7 @@
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
 		<statBases>
+			<MarketValue>1700</MarketValue>
 			<WorkToMake>80000</WorkToMake>
 			<Mass>4.0</Mass>
 			<AccuracyTouch>0.88</AccuracyTouch>
@@ -752,6 +758,7 @@
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
 		<statBases>
+			<MarketValue>2200</MarketValue>
 			<Mass>3.8</Mass>
 			<AccuracyTouch>0.92</AccuracyTouch>
 			<AccuracyShort>0.88</AccuracyShort>
@@ -831,6 +838,7 @@
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
 		<statBases>
+			<MarketValue>2400</MarketValue>
 			<WorkToMake>120000</WorkToMake>
 			<Mass>6.5</Mass>
 			<AccuracyTouch>0.75</AccuracyTouch>

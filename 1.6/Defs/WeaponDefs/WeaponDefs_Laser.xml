@@ -18,7 +18,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
         <statBases>
-            <MarketValue>1200</MarketValue>
+            <MarketValue>800</MarketValue>
             <WorkToMake>45000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
@@ -107,6 +107,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1200</MarketValue>
             <WorkToMake>65000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
@@ -195,6 +196,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Tri_Beam_Laser_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1400</MarketValue>
             <WorkToMake>70000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.90</AccuracyTouch>
@@ -285,6 +287,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1500</MarketValue>
             <WorkToMake>95000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
@@ -377,6 +380,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_RCW</soundInteract>
         <statBases>
+            <MarketValue>1100</MarketValue>
             <WorkToMake>68000</WorkToMake>
             <Mass>1.6</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
@@ -459,7 +463,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Recharger_Rifle</defName>
         <label>Recharger Rifle</label>
-        <description>The recharger rifle was the first energy weapon featuring a microfusion breeder. It replenishes its ammunition automatically, no reloading required. However, the underlying technology wasn’t very sophisticated yet. It can fire rapidly, but the projectiles do significantly less damage compared to a laser rifle. The inefficient breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is a considerably time in between those bursts. At least it usually is a lot cheaper than a laser rifle.</description>
+        <description>The recharger rifle was the first energy weapon featuring a microfusion breeder. It replenishes its ammunition automatically, no reloading required. However, the underlying technology wasnï¿½t very sophisticated yet. It can fire rapidly, but the projectiles do significantly less damage compared to a laser rifle. The inefficient breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is a considerably time in between those bursts. At least it usually is a lot cheaper than a laser rifle.</description>
         <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Recharger_Rifle</texPath>
@@ -467,6 +471,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Recharger_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1250</MarketValue>
             <WorkToMake>60000</WorkToMake>
             <Mass>2.1</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
@@ -552,6 +557,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Recharger_Pistol</soundInteract>
         <statBases>
+            <MarketValue>850</MarketValue>
             <WorkToMake>55000</WorkToMake>
             <Mass>1.6</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
@@ -638,6 +644,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1800</MarketValue>
             <Mass>3.8</Mass>
             <AccuracyTouch>0.88</AccuracyTouch>
             <AccuracyShort>0.85</AccuracyShort>
@@ -716,6 +723,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1600</MarketValue>
             <WorkToMake>85000</WorkToMake>
             <Mass>4.0</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
@@ -808,6 +816,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1150</MarketValue>
             <WorkToMake>58000</WorkToMake>
             <Mass>3.0</Mass>
             <AccuracyTouch>0.88</AccuracyTouch>
@@ -897,6 +906,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
         <statBases>
+            <MarketValue>2000</MarketValue>
             <Mass>1.8</Mass>
             <AccuracyTouch>0.82</AccuracyTouch>
             <AccuracyShort>0.78</AccuracyShort>
@@ -978,6 +988,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
         <statBases>
+            <MarketValue>2200</MarketValue>
             <Mass>2.0</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -1135,6 +1146,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
         <statBases>
+            <MarketValue>900</MarketValue>
             <WorkToMake>42000</WorkToMake>
             <Mass>2.4</Mass>
             <AccuracyTouch>0.76</AccuracyTouch>
@@ -1224,6 +1236,7 @@
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1300</MarketValue>
             <Mass>3.4</Mass>
             <AccuracyTouch>0.82</AccuracyTouch>
             <AccuracyShort>0.78</AccuracyShort>

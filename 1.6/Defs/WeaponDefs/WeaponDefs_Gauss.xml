@@ -18,6 +18,7 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1300</MarketValue>
             <WorkToMake>55000</WorkToMake>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
@@ -101,6 +102,7 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1700</MarketValue>
             <WorkToMake>70000</WorkToMake>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
@@ -185,6 +187,7 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
+            <MarketValue>2400</MarketValue>
             <WorkToMake>90000</WorkToMake>
             <Mass>8.0</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
@@ -263,6 +266,7 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
+            <MarketValue>2600</MarketValue>
             <WorkToMake>80000</WorkToMake>
             <Mass>5.5</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
@@ -350,6 +354,7 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
+            <MarketValue>1800</MarketValue>
             <Mass>4.2</Mass>
             <AccuracyTouch>0.78</AccuracyTouch>
             <AccuracyShort>0.88</AccuracyShort>

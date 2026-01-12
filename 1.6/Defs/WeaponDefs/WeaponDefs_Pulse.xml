@@ -18,6 +18,7 @@
         </graphicData>
         <soundInteract>Interact_Autopistol</soundInteract>
         <statBases>
+            <MarketValue>2400</MarketValue>
             <WorkToMake>75000</WorkToMake>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.88</AccuracyTouch>
@@ -107,6 +108,7 @@
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
+            <MarketValue>2800</MarketValue>
             <WorkToMake>95000</WorkToMake>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
