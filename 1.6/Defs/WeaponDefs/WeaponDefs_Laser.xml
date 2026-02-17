@@ -7,11 +7,10 @@
 
     <!-- Laser Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Laser_Pistol</defName>
         <label>Laser Pistol</label>
         <description>The AEP7 laser pistol comes with a generous battery size, tight shot grouping at range, resilience to extended use, and fairly decent damage output, it is a very good choice for a sidearm and is used extensively in this role by the Brotherhood of Steel and the Enclave. Like other energy weapons, the laser pistol has the ability to reduce enemies to piles of steaming ash.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Laser_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -32,9 +31,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>25</Plasteel>
@@ -96,11 +92,10 @@
 
     <!-- Laser Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Laser_Rifle</defName>
         <label>Laser Rifle</label>
         <description>A staple of the pre-war armed forces, the laser rifle has become a somewhat unusual sight in the wasteland, especially one in good condition. They emit a concentrated beam of coherent light capable of severely damaging what- or whoever it was aimed at.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Laser_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -121,9 +116,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>25</Plasteel>
@@ -185,11 +177,10 @@
 
     <!-- Tri-Beam Laser Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Tri_Beam_Laser_Rifle</defName>
         <label>Tri-Beam Laser Rifle</label>
         <description>The tri-beam laser rifle appears to be a shortened laser rifle with a different emitter at its tip. It fires three beams of laser at once, serving as a high-tech alternative to shotguns. Like less advanced shotguns, the tri-beam laser rifle is best suited for combat over short ranges.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Tri_Beam_Laser_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -210,9 +201,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>25</Plasteel>
@@ -276,11 +264,10 @@
 
     <!-- Gatling Laser -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Gatling_Laser</defName>
         <label>Gatling Laser</label>
         <description>A huge and heavy laser weapon reminiscent of Minigun and popular with the Brotherhood of Steel. Its individual shots do little damage, but this is entirely compensated by its extremely high rate of fire. It excels at the same areas as the Minigun, providing suppressing fire over short and medium distances.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Gatling_Laser_mkII</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -301,9 +288,6 @@
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>45</Plasteel>
@@ -369,11 +353,10 @@
 
     <!-- Laser RCW -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Laser_RCW</defName>
         <label>Laser RCW</label>
         <description>The laser rapid capacitor weapon is a strange gun that mimics a submachinegun. The unique feature of the RCW is the addition of a drum magazine, which gives this weapon its unique look, high rate of fire, and name. This weapon exhibits moderate accuracy due to a high spread for a laser weapon, making it useful for taking down enemies at almost any range.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Laser_RCW</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -394,9 +377,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>45</Plasteel>
@@ -460,11 +440,10 @@
 
     <!-- Recharger Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Recharger_Rifle</defName>
         <label>Recharger Rifle</label>
         <description>The recharger rifle was the first energy weapon featuring a microfusion breeder. It replenishes its ammunition automatically, no reloading required. However, the underlying technology wasn�t very sophisticated yet. It can fire rapidly, but the projectiles do significantly less damage compared to a laser rifle. The inefficient breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is a considerably time in between those bursts. At least it usually is a lot cheaper than a laser rifle.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Recharger_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -485,9 +464,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>25</Plasteel>
@@ -546,11 +522,10 @@
 
     <!-- Recharger Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Recharger_Pistol</defName>
         <label>Recharger Pistol</label>
         <description>The recharger pistol is a compact version of the recharger rifle, featuring a microfusion breeder that replenishes its ammunition automatically, no reloading required. While it can fire rapidly, the projectiles do less damage compared to a laser pistol. The breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is considerable time in between those bursts. It is generally cheaper and more portable than the recharger rifle.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Recharger_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -571,9 +546,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>25</Plasteel>
@@ -632,12 +604,11 @@
 
     <!-- AER14 Prototype -->
 
-    <ThingDef ParentName="BaseGun">
+    <ThingDef ParentName="FCP_BaseGun">
         <defName>FCP_Gun_AER14_Prototype</defName>
         <useHitPoints>false</useHitPoints>
         <label>AER14 Prototype</label>
         <description>An experimental variant of the AER laser rifle series, the AER14 prototype features improved focusing crystals and an advanced energy regulator. It delivers greater accuracy and damage than standard laser rifles, though its prototype status makes it rare and expensive to produce.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_AER14_Prototype</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -712,11 +683,10 @@
 
     <!-- Gatling Laser Mk I -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Gatling_Laser_MkI</defName>
         <label>Gatling Laser Mk I</label>
         <description>An early model of the Gatling Laser, this heavy weapon features a rotary barrel design that allows for sustained automatic fire. While less refined than later models, it remains a formidable suppressive weapon capable of laying down withering laser fire.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Gatling_Laser_mkI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -737,9 +707,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>40</Plasteel>
@@ -805,11 +772,10 @@
 
     <!-- Laser Carbine -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Laser_Carbine</defName>
         <label>Laser Carbine</label>
         <description>A compact, shortened version of the standard laser rifle designed for close-quarters combat and urban operations. The laser carbine sacrifices some range and power for improved maneuverability and faster target acquisition, making it popular among scouts and special forces.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Laser_Carbine</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -830,9 +796,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>22</Plasteel>
@@ -976,12 +939,11 @@
 
     <!-- Pew Pew -->
 
-    <ThingDef ParentName="BaseGun">
+    <ThingDef ParentName="FCP_BaseGun">
         <defName>FCP_Gun_Pew_Pew</defName>
         <useHitPoints>false</useHitPoints>
         <label>Pew Pew</label>
         <description>An unusually styled energy pistol with distinctive blue coloring. Despite its toy-like name and appearance, the Pew Pew delivers surprisingly powerful shots using an advanced energy focusing system. Its unique design makes it a conversation piece as much as a weapon.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Pew_Pew</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1056,12 +1018,11 @@
 
     <!-- Sprtel-Wood 9700 -->
 
-    <ThingDef ParentName="BaseGun">
+    <ThingDef ParentName="FCP_BaseGun">
         <defName>FCP_Gun_Sprtel_Wood_9700_Unique</defName>
         <useHitPoints>false</useHitPoints>
         <label>Sprtel-Wood 9700</label>
         <description>A civilian laser pistol manufactured by Sprtel-Wood, the 9700 model was marketed as a home defense weapon before the war. While not as powerful as military-grade energy weapons, its reliability and ease of use made it popular among settlers and traders.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Sprtel_Wood_9700a</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1135,11 +1096,10 @@
 
     <!-- Wattz 1000 Laser Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Wattz_1000_Laser_Pistol</defName>
         <label>Wattz 1000 Laser Pistol</label>
         <description>An older model laser pistol manufactured by Wattz Electronics before the Great War. The Wattz 1000 uses a simpler focusing lens system than modern designs, resulting in somewhat reduced performance, but its robust construction ensures reliable operation even decades after manufacture.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Wattz_1000_Laser_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -1160,9 +1120,6 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>22</Plasteel>
@@ -1224,12 +1181,11 @@
 
     <!-- Wattz 2000 Laser Rifle -->
 
-    <ThingDef ParentName="BaseGun">
+    <ThingDef ParentName="FCP_BaseGun">
         <defName>FCP_Gun_Wattz_2000_Laser_Rifle</defName>
         <useHitPoints>false</useHitPoints>
         <label>Wattz 2000 Laser Rifle</label>
         <description>The rifle variant of Wattz Electronics' laser weapon line, the 2000 model features an extended barrel and improved power cell. While using older technology than modern AER series rifles, the Wattz 2000 remains a capable weapon favored for its durability and ease of maintenance.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Wattz_2000_Laser_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
