@@ -7,11 +7,10 @@
 
     <!-- Flamer Mk I -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Flamer_MkI</defName>
         <label>Flamer Mk I</label>
         <description>The Flamer Mk I is an early-generation incendiary weapon that sprays a stream of burning fuel at close to medium range. Favored by pre-war military forces for clearing trenches and fortifications, it excels at dealing with groups of enemies in confined spaces. Its crude but effective design makes it a terror on the battlefield.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Flame/FCP_Flamer_mkI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -21,18 +20,9 @@
             <researchPrerequisites>
                 <li>FCP_Research_Energy_Based_Weaponry</li>
             </researchPrerequisites>
-            <researchPrerequisite>FCP_Research_Energy_Based_Weaponry</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Machining</soundWorking>
-            <recipeUsers>
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -112,11 +102,10 @@
 
     <!-- Flamer Mk II -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Flamer_MkII</defName>
         <label>Flamer Mk II</label>
         <description>An improved version of the original flamer design, the Mk II features enhanced fuel efficiency, greater range, and more consistent flame projection. Popular among pre-war assault teams and post-war scavengers alike, it represents the pinnacle of portable incendiary weapon technology before the war.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Flame/FCP_Flamer_mkII</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -126,18 +115,9 @@
             <researchPrerequisites>
                 <li>FCP_Research_Energy_Based_Weaponry</li>
             </researchPrerequisites>
-            <researchPrerequisite>FCP_Research_Energy_Based_Weaponry</researchPrerequisite>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-            <workSkill>Crafting</workSkill>
-            <effectWorking>Smith</effectWorking>
-            <soundWorking>Recipe_Machining</soundWorking>
-            <recipeUsers>
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -217,12 +197,11 @@
 
     <!-- Heavy Incinerator -->
 
-    <ThingDef ParentName="BaseGun">
+    <ThingDef ParentName="FCP_BaseGun">
         <defName>FCP_Gun_Heavy_Incinerator</defName>
         <useHitPoints>false</useHitPoints>
         <label>Heavy Incinerator</label>
         <description>The Heavy Incinerator is a unique and devastating pre-war heavy flamethrower issued to elite Enclave Hellfire units. Built with reinforced components and an advanced fuel delivery system, it projects an intense stream of fire over considerable distances. This weapon is both a symbol of terror and a masterpiece of destructive engineering, capable of reducing enemies to ash.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Flame/FCP_Heavy_Incinerator</texPath>
             <graphicClass>Graphic_Single</graphicClass>

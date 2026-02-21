@@ -7,11 +7,10 @@
 
     <!-- PPK12 Gauss Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_PPK12_Gauss_Pistol</defName>
         <label>PPK12 Gauss Pistol</label>
         <description>The PPK12 Gauss pistol is a German-designed electromagnetic weapon that uses magnetic induction to propel projectiles at extremely high velocities. Compact and reliable, it delivers devastating kinetic energy with minimal recoil, making it an excellent sidearm for those who can afford such advanced technology.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Gauss/FCP_ppk12_Gauss_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -32,9 +31,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>35</Plasteel>
@@ -91,11 +87,10 @@
 
     <!-- M72 Gauss Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_M72_Gauss_Rifle</defName>
         <label>M72 Gauss Rifle</label>
         <description>The M72 Gauss rifle is a top-of-the-line pre-War weapon utilizing electromagnetic coils to accelerate metallic projectiles to hypersonic velocities. Capable of punching through most armor with ease, the Gauss rifle is a testament to pre-War military innovation. Its precision and stopping power are legendary among wasteland survivors.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Gauss/FCP_M72_Gauss_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -116,9 +111,6 @@
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>60</Plasteel>
@@ -176,11 +168,10 @@
 
     <!-- Gauss Minigun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Gauss_Minigun</defName>
         <label>Gauss Minigun</label>
         <description>A devastating heavy weapon combining electromagnetic acceleration technology with minigun-style rotating barrels. The Gauss minigun fires a continuous stream of electromagnetically propelled projectiles capable of shredding armor and flesh alike. Its immense firepower comes at the cost of considerable weight and power requirements.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Gauss/FCP_Gauss_Minigun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -201,9 +192,6 @@
             <skillRequirements>
                 <Crafting>11</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>90</Plasteel>
@@ -255,11 +243,10 @@
 
     <!-- Gauss Sniper Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Gauss_Sniper_Rifle</defName>
         <label>Gauss Sniper Rifle</label>
         <description>A masterwork gauss weapon designed for extreme long-range precision. This unique rifle features an extended barrel, advanced targeting optics, and refined electromagnetic coils that deliver unparalleled accuracy at distances that would make conventional snipers envious. Each shot represents the perfect marriage of pre-War science and deadly efficiency.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Gauss/FCP_Gauss_Sniper_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -280,9 +267,6 @@
             <skillRequirements>
                 <Crafting>11</Crafting>
             </skillRequirements>
-            <recipeUsers Inherit="False">
-                <li>FCP_Production_Fabrication_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <costList>
             <Plasteel>70</Plasteel>
@@ -342,12 +326,11 @@
 
     <!-- M72 A2 Gauss Rifle (Unique) -->
 
-    <ThingDef ParentName="BaseGun">
+    <ThingDef ParentName="FCP_BaseGun">
         <defName>FCP_Gun_M72_A2_Gauss_Rifle</defName>
         <useHitPoints>false</useHitPoints>
         <label>M72 A2 Gauss Rifle</label>
         <description>An experimental prototype of the M72 Gauss rifle featuring advanced magnetic coil configuration and enhanced power cell efficiency. The M72 A2 represents the pinnacle of pre-War electromagnetic weapon technology, with improved accuracy and greater armor penetration than its standard counterpart. Only a handful were ever produced before the Great War.</description>
-        <techLevel>Industrial</techLevel>
         <graphicData>
             <texPath>Things/Weapons/Gauss/FCP_M72_A2_Gauss_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>

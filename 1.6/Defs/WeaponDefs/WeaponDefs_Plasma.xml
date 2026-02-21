@@ -7,7 +7,7 @@
 
 	<!-- Plasma Pistol -->
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="FCP_Machining_Gun_Base">
 		<defName>FCP_Gun_Plasma_Pistol</defName>
 		<label>Plasma Pistol</label>
 		<description>A downscaled version of the plasma rifle. The plasma pistol has five tributary
@@ -15,7 +15,6 @@
             focus, or the barrel. The energy is projected forward and forms a plasma pinch; though
             rather slow, the pinch carries high levels of both thermal and kinetic energy,
             inflicting massive damage.</description>
-		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Things/Weapons/Plasma/FCP_Plasma_Pistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -36,9 +35,6 @@
 			<skillRequirements>
 				<Crafting>7</Crafting>
 			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>FCP_Production_Fabrication_Workbench</li>
-			</recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Plasteel>25</Plasteel>
@@ -100,11 +96,10 @@
 
 	<!-- Plasma Rifle -->
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="FCP_Machining_Gun_Base">
 		<defName>FCP_Gun_Plasma_Rifle</defName>
 		<label>Plasma Rifle</label>
 		<description>The plasma rifle is a powerful energy weapon that fires superheated bolts of plasma. Favored by advanced factions, it delivers devastating damage and is effective against both armored and unarmored targets, though its projectiles travel slower than lasers.</description>
-		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Things/Weapons/Plasma/FCP_Plasma_Rifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -124,9 +119,6 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>FCP_Production_Fabrication_Workbench</li>
-			</recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Plasteel>35</Plasteel>
@@ -188,11 +180,10 @@
 
 	<!-- Multiplas Rifle -->
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="FCP_Machining_Gun_Base">
 		<defName>FCP_Gun_Multiplas_Rifle</defName>
 		<label>Multiplas Rifle</label>
 		<description>The Multiplas Rifle is a heavily modified plasma weapon that fires three plasma projectiles in a spread with each shot. While devastating at close range, its accuracy drops off quickly at distance, making it best suited for short- to mid-range combat.</description>
-		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Things/Weapons/Plasma/FCP_Multiplas_Rifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -213,9 +204,6 @@
 			<skillRequirements>
 				<Crafting>9</Crafting>
 			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>FCP_Production_Fabrication_Workbench</li>
-			</recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Plasteel>40</Plasteel>
@@ -279,14 +267,13 @@
 
 	<!-- Plasma Caster -->
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="FCP_Machining_Gun_Base">
 		<defName>FCP_Gun_Plasma_Caster</defName>
 		<label>Plasma Caster</label>
 		<description>The plasma caster functions very similar to its rifle-based counterpart. 
             It was first developed as an industrial tool but was soon after downscaled 
             and adapted as a weapon, it�s still very heavy though. Compared to the plasma 
             rifle, it fires both faster and harder-hitting, but is significantly less accurate.</description>
-		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Things/Weapons/Plasma/FCP_Plasma_Caster_mkII</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -307,9 +294,6 @@
 			<skillRequirements>
 				<Crafting>9</Crafting>
 			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>FCP_Production_Fabrication_Workbench</li>
-			</recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Plasteel>45</Plasteel>
@@ -379,11 +363,10 @@
 
 	<!-- Plasma Defender -->
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="FCP_Machining_Gun_Base">
 		<defName>FCP_Gun_Plasma_Defender</defName>
 		<label>Plasma Defender</label>
 		<description>A compact, refined plasma pistol designed for reliability and ease of maintenance. The Plasma Defender features improved magnetic bottle containment and more efficient energy conversion than standard plasma pistols, making it a favored sidearm among wastelanders who can maintain it.</description>
-		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Things/Weapons/Plasma/FCP_Plasma_Defender</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -404,9 +387,6 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>FCP_Production_Fabrication_Workbench</li>
-			</recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Plasteel>28</Plasteel>
@@ -468,11 +448,10 @@
 
 	<!-- Plasma Caster Mk I -->
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="FCP_Machining_Gun_Base">
 		<defName>FCP_Gun_Plasma_Caster_MkI</defName>
 		<label>Plasma Caster Mk I</label>
 		<description>An earlier prototype of the Plasma Caster series. While lacking the refinement of later models, the Mk I is still a formidable heavy plasma weapon capable of delivering sustained plasma bombardment. Its crude magnetic confinement system makes it slightly less accurate but no less devastating.</description>
-		<techLevel>Industrial</techLevel>
 		<graphicData>
 			<texPath>Things/Weapons/Plasma/FCP_Plasma_Caster_mkI</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -494,9 +473,6 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>FCP_Production_Fabrication_Workbench</li>
-			</recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Plasteel>40</Plasteel>
@@ -562,11 +538,10 @@
 
 	<!-- Glock 86 Plasma Pistol -->
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="FCP_Machining_Gun_Base">
 		<defName>FCP_Gun_Glock_86_Plasma_Pistol</defName>
 		<label>Glock 86 Plasma Pistol</label>
 		<description>A pre-War German-designed plasma pistol that represents the pinnacle of compact energy weapon engineering. The Glock 86 features revolutionary magnetic field stabilization that dramatically improves accuracy and reduces cooldown time compared to standard plasma pistols. This exceptionally rare weapon was never mass-produced.</description>
-		<techLevel>Spacer</techLevel>
 		<graphicData>
 			<texPath>Things/Weapons/Plasma/FCP_Glock_86</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -587,9 +562,6 @@
 			<skillRequirements>
 				<Crafting>9</Crafting>
 			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>FCP_Production_Fabrication_Workbench</li>
-			</recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Plasteel>32</Plasteel>
@@ -651,11 +623,10 @@
 
 	<!-- P-94 Plasma Rifle -->
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="FCP_Machining_Gun_Base">
 		<defName>FCP_Gun_P_94_Plasma_Rifle</defName>
 		<label>P-94 Plasma Rifle</label>
 		<description>An experimental plasma rifle prototype featuring an enhanced magnetic field generator and advanced plasma containment system. The P-94 fires more powerful plasma bolts with greater stability than standard plasma rifles. This unique weapon never progressed beyond field testing due to its complex maintenance requirements.</description>
-		<techLevel>Spacer</techLevel>
 		<graphicData>
 			<texPath>Things/Weapons/Plasma/FCP_P_94</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -676,9 +647,6 @@
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>FCP_Production_Fabrication_Workbench</li>
-			</recipeUsers>
 		</recipeMaker>
 		<costList>
 			<Plasteel>42</Plasteel>
@@ -827,11 +795,10 @@
 
 	<!-- PMG - Plasma Machine Gun -->
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="FCP_Machining_Gun_Base">
 		<defName>FCP_Gun_Plasma_Machine_Gun</defName>
 		<label>Plasma Machine Gun</label>
 		<description>The Plasma Machine Gun (PMG) is an experimental automatic plasma weapon that combines the rapid-fire capability of conventional machine guns with the devastating power of plasma technology. Using a revolutionary multi-cathode cyclic firing system, it can sustain fully automatic plasma fire at the cost of significant weight and power consumption. This unique heavy weapon was abandoned before mass production due to its extreme complexity.</description>
-		<techLevel>Spacer</techLevel>
 		<graphicData>
 			<texPath>Things/Weapons/Plasma/FCP_PMG</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
