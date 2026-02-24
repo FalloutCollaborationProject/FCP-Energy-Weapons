@@ -29,6 +29,7 @@
         </thingSetMakerTags>
         <statBases>
             <MarketValue>980</MarketValue>
+            <WorkToMake>50000</WorkToMake>
             <Mass>5.5</Mass>
             <AccuracyTouch>0.90</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -124,6 +125,7 @@
         </thingSetMakerTags>
         <statBases>
             <MarketValue>1200</MarketValue>
+            <WorkToMake>55000</WorkToMake>
             <Mass>5.0</Mass>
             <AccuracyTouch>0.92</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
