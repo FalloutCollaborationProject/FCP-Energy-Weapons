@@ -51,7 +51,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Laser</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>17.0</range>
                 <soundCast>FCP_Sound_Shot_Laser_Pistol</soundCast>
@@ -136,7 +136,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Laser</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>25.9</range>
                 <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
@@ -221,7 +221,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Laser</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>17.9</range>
                 <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
@@ -310,7 +310,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Gatling_Laser</defaultProjectile>
                 <warmupTime>1.50</warmupTime>
                 <range>30.9</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -397,7 +397,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Laser</defaultProjectile>
                 <warmupTime>1.9</warmupTime>
                 <range>20.9</range>
                 <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
@@ -484,7 +484,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_MF_Breeder</defaultProjectile>
+                <defaultProjectile>FCP_Beam_MF_Breeder</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>25.9</range>
                 <ticksBetweenBurstShots>18</ticksBetweenBurstShots>
@@ -566,7 +566,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_MF_Breeder</defaultProjectile>
+                <defaultProjectile>FCP_Beam_MF_Breeder</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>16.9</range>
                 <ticksBetweenBurstShots>14</ticksBetweenBurstShots>
@@ -641,7 +641,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser_S</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Laser_S</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
                 <range>28.9</range>
                 <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
@@ -729,7 +729,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Gatling_Laser</defaultProjectile>
                 <warmupTime>1.60</warmupTime>
                 <range>28.9</range>
                 <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
@@ -816,7 +816,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Laser</defaultProjectile>
                 <warmupTime>0.85</warmupTime>
                 <range>22.9</range>
                 <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
@@ -895,7 +895,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_MF_Breeder</defaultProjectile>
+                <defaultProjectile>FCP_Beam_MF_Breeder</defaultProjectile>
                 <warmupTime>0.7</warmupTime>
                 <range>20.9</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
@@ -976,7 +976,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser_S</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Laser_S</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
                 <range>19.9</range>
                 <soundCast>FCP_Sound_Shot_Laser_Pistol</soundCast>
@@ -1054,7 +1054,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Laser</defaultProjectile>
                 <warmupTime>1.1</warmupTime>
                 <range>16.9</range>
                 <soundCast>FCP_Sound_Shot_Laser_Pistol</soundCast>
@@ -1140,7 +1140,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Laser</defaultProjectile>
                 <warmupTime>1.05</warmupTime>
                 <range>17.5</range>
                 <soundCast>FCP_Sound_Shot_Laser_Pistol</soundCast>
@@ -1218,7 +1218,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_Laser</defaultProjectile>
+                <defaultProjectile>FCP_Beam_Laser</defaultProjectile>
                 <warmupTime>1.05</warmupTime>
                 <range>24.9</range>
                 <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
