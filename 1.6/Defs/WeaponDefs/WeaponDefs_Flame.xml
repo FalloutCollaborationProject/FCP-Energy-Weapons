@@ -98,6 +98,14 @@
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
             </li>
+            <li Class="FCP.Core.Backpacks.CompProperties_WeaponBackpack">
+                <backpackTexPath>Things/Pawn/Backpacks/Flamer_Fuel_Tank/FCP_Flamer_Fuel_Tank</backpackTexPath>
+                <backpackScale>1.0</backpackScale>
+                <drawBackOnlyWhenDrafted>false</drawBackOnlyWhenDrafted>
+                <northOffset>(0, 0.04, -0.10)</northOffset>
+                <southOffset>(0, -0.04, -0.10)</southOffset>
+                <eastOffset>(-0.3, 0.04, -0.10)</eastOffset>
+            </li>
         </comps>
     </ThingDef>
 
