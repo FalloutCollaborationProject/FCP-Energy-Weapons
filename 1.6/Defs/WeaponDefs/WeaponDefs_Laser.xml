@@ -350,6 +350,7 @@
                 <northOffset>(0, 0.04, -0.10)</northOffset>
                 <southOffset>(0, -0.04, -0.10)</southOffset>
                 <eastOffset>(-0.3, 0.04, -0.10)</eastOffset>
+            </li>
         </comps>
         <modExtensions>
             <li Class="FalloutCore.DeathEffectModExtension">
@@ -776,6 +777,7 @@
                 <northOffset>(0, 0.04, -0.10)</northOffset>
                 <southOffset>(0, -0.04, -0.10)</southOffset>
                 <eastOffset>(-0.3, 0.04, -0.10)</eastOffset>
+            </li>
         </comps>
         <modExtensions>
             <li Class="FalloutCore.DeathEffectModExtension">
