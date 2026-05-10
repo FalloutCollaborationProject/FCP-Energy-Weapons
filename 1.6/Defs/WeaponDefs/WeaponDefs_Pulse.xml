@@ -54,6 +54,7 @@
                 <defaultProjectile>Bullet_EMPLauncher</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>22.9</range>
+                <forcedMissRadius>1.1</forcedMissRadius>
                 <soundCast>Shot_ChargeBlaster</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -84,10 +85,10 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.25</effectChance>
             </li>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -142,6 +143,7 @@
                 <range>30.9</range>
                 <burstShotCount>3</burstShotCount>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <forcedMissRadius>1.1</forcedMissRadius>
                 <soundCast>Shot_ChargeBlaster</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -172,10 +174,10 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.30</effectChance>
             </li>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 

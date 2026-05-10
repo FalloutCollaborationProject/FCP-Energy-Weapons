@@ -88,7 +88,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="FalloutCore.DeathEffectModExtension">
+			<li Class="FCP.Core.DeathEffectModExtension">
 				<effectChance>0.30</effectChance>
 			</li>
 		</modExtensions>
@@ -172,7 +172,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="FalloutCore.DeathEffectModExtension">
+			<li Class="FCP.Core.DeathEffectModExtension">
 				<effectChance>0.30</effectChance>
 			</li>
 		</modExtensions>
@@ -259,7 +259,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="FalloutCore.DeathEffectModExtension">
+			<li Class="FCP.Core.DeathEffectModExtension">
 				<effectChance>0.35</effectChance>
 			</li>
 		</modExtensions>
@@ -349,13 +349,13 @@
 			<li Class="FCP.Core.CompProperties_LabelColored">
 				<rarity>Rare</rarity>
 			</li>
-            <li Class="FCPWeaponPositioner.CompProperties_PositionAttributes">
+            <li Class="FCP.Core.CompProperties_PositionAttributes">
                 <!-- <DraftedDrawOffset>(0.5, 0)</DraftedDrawOffset> -->
                 <HeldDrawOffset>(0.2, -0.3)</HeldDrawOffset>
             </li>
         </comps>
 		<modExtensions>
-			<li Class="FalloutCore.DeathEffectModExtension">
+			<li Class="FCP.Core.DeathEffectModExtension">
 				<effectChance>0.65</effectChance>
 			</li>
 		</modExtensions>
@@ -440,7 +440,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="FalloutCore.DeathEffectModExtension">
+			<li Class="FCP.Core.DeathEffectModExtension">
 				<effectChance>0.30</effectChance>
 			</li>
 		</modExtensions>
@@ -530,7 +530,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="FalloutCore.DeathEffectModExtension">
+			<li Class="FCP.Core.DeathEffectModExtension">
 				<effectChance>0.60</effectChance>
 			</li>
 		</modExtensions>
@@ -615,7 +615,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="FalloutCore.DeathEffectModExtension">
+			<li Class="FCP.Core.DeathEffectModExtension">
 				<effectChance>0.35</effectChance>
 			</li>
 		</modExtensions>
@@ -695,7 +695,7 @@
 			</li>
 		</tools>
 		<comps>
-            <li Class="FCPWeaponPositioner.CompProperties_PositionAttributes">
+            <li Class="FCP.Core.CompProperties_PositionAttributes">
                 <!-- <DraftedDrawOffset>(0.5, 0)</DraftedDrawOffset> -->
                 <HeldDrawOffset>(0.2, -0.3)</HeldDrawOffset>
             </li>
@@ -704,7 +704,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="FalloutCore.DeathEffectModExtension">
+			<li Class="FCP.Core.DeathEffectModExtension">
 				<effectChance>0.35</effectChance>
 			</li>
 		</modExtensions>
@@ -787,7 +787,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="FCP.Core.UniqueThingExtension" />
-			<li Class="FalloutCore.DeathEffectModExtension">
+			<li Class="FCP.Core.DeathEffectModExtension">
 				<effectChance>0.40</effectChance>
 			</li>
 		</modExtensions>
@@ -881,7 +881,7 @@
 			</li>
 		</comps>
 		<modExtensions>
-			<li Class="FalloutCore.DeathEffectModExtension">
+			<li Class="FCP.Core.DeathEffectModExtension">
 				<effectChance>0.70</effectChance>
 			</li>
 		</modExtensions>

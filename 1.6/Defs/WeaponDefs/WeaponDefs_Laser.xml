@@ -84,7 +84,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.10</effectChance>
             </li>
         </modExtensions>
@@ -169,7 +169,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.25</effectChance>
             </li>
         </modExtensions>
@@ -256,7 +256,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.25</effectChance>
             </li>
         </modExtensions>
@@ -353,7 +353,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.55</effectChance>
             </li>
         </modExtensions>
@@ -440,7 +440,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.25</effectChance>
             </li>
         </modExtensions>
@@ -683,7 +683,7 @@
         </comps>
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.30</effectChance>
             </li>
         </modExtensions>
@@ -780,7 +780,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.45</effectChance>
             </li>
         </modExtensions>
@@ -865,7 +865,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.20</effectChance>
             </li>
         </modExtensions>
@@ -947,7 +947,7 @@
         </comps>
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.30</effectChance>
             </li>
         </modExtensions>
@@ -1026,7 +1026,7 @@
         </comps>
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.30</effectChance>
             </li>
         </modExtensions>
@@ -1104,7 +1104,7 @@
         </comps>
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.30</effectChance>
             </li>
         </modExtensions>
@@ -1189,7 +1189,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.10</effectChance>
             </li>
         </modExtensions>
@@ -1268,7 +1268,7 @@
         </comps>
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
-            <li Class="FalloutCore.DeathEffectModExtension">
+            <li Class="FCP.Core.DeathEffectModExtension">
                 <effectChance>0.30</effectChance>
             </li>
         </modExtensions>
