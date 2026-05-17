@@ -15,34 +15,18 @@
             <texPath>Things/Weapons/Flame/FCP_Flamer_mkI</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Energy_Based_Weaponry</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>980</MarketValue>
-            <WorkToMake>50000</WorkToMake>
             <Mass>5.5</Mass>
             <AccuracyTouch>0.90</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>0.50</AccuracyMedium>
             <AccuracyLong>0.30</AccuracyLong>
             <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-        </statBases>
-        <costList>
-            <Steel>70</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-            <Chemfuel>20</Chemfuel>
-        </costList>
-        <weaponTags>
+        </statBases>        <weaponTags>
             <li>FCP_Energy_Weapon</li>
             <li>FCP_Flame_Weapon</li>
         </weaponTags>
@@ -119,34 +103,18 @@
             <texPath>Things/Weapons/Flame/FCP_Flamer_mkII</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Energy_Based_Weaponry</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>1200</MarketValue>
-            <WorkToMake>55000</WorkToMake>
             <Mass>5.0</Mass>
             <AccuracyTouch>0.92</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
             <AccuracyMedium>0.60</AccuracyMedium>
             <AccuracyLong>0.35</AccuracyLong>
             <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
-        </statBases>
-        <costList>
-            <Steel>80</Steel>
-            <ComponentIndustrial>8</ComponentIndustrial>
-            <Chemfuel>25</Chemfuel>
-        </costList>
-        <weaponTags>
+        </statBases>        <weaponTags>
             <li>FCP_Energy_Weapon</li>
             <li>FCP_Flame_Weapon</li>
         </weaponTags>

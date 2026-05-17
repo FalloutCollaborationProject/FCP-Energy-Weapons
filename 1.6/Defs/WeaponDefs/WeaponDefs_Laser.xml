@@ -18,7 +18,6 @@
         <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
         <statBases>
             <MarketValue>800</MarketValue>
-            <WorkToMake>45000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -26,16 +25,6 @@
             <AccuracyLong>0.50</AccuracyLong>
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>25</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -103,7 +92,6 @@
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
             <MarketValue>1200</MarketValue>
-            <WorkToMake>65000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -111,16 +99,6 @@
             <AccuracyLong>0.70</AccuracyLong>
             <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>25</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -188,7 +166,6 @@
         <soundInteract>FCP_Sound_Interact_Tri_Beam_Laser_Rifle</soundInteract>
         <statBases>
             <MarketValue>1400</MarketValue>
-            <WorkToMake>70000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.90</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -196,16 +173,6 @@
             <AccuracyLong>0.35</AccuracyLong>
             <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>25</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -275,7 +242,6 @@
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
             <MarketValue>1500</MarketValue>
-            <WorkToMake>95000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -283,16 +249,6 @@
             <AccuracyLong>0.50</AccuracyLong>
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>9</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>45</Plasteel>
-            <ComponentSpacer>3</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -372,7 +328,6 @@
         <soundInteract>FCP_Sound_Interact_Laser_RCW</soundInteract>
         <statBases>
             <MarketValue>1100</MarketValue>
-            <WorkToMake>68000</WorkToMake>
             <Mass>1.6</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
@@ -380,16 +335,6 @@
             <AccuracyLong>0.50</AccuracyLong>
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>45</Plasteel>
-            <ComponentSpacer>3</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -459,7 +404,6 @@
         <soundInteract>FCP_Sound_Interact_Recharger_Rifle</soundInteract>
         <statBases>
             <MarketValue>1250</MarketValue>
-            <WorkToMake>60000</WorkToMake>
             <Mass>2.1</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -467,16 +411,6 @@
             <AccuracyLong>0.70</AccuracyLong>
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>25</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -541,7 +475,6 @@
         <soundInteract>FCP_Sound_Interact_Recharger_Pistol</soundInteract>
         <statBases>
             <MarketValue>850</MarketValue>
-            <WorkToMake>55000</WorkToMake>
             <Mass>1.6</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -549,16 +482,6 @@
             <AccuracyLong>0.68</AccuracyLong>
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>25</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -702,7 +625,6 @@
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
             <MarketValue>1600</MarketValue>
-            <WorkToMake>85000</WorkToMake>
             <Mass>4.0</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -710,16 +632,6 @@
             <AccuracyLong>0.45</AccuracyLong>
             <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>40</Plasteel>
-            <ComponentSpacer>3</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -799,7 +711,6 @@
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
             <MarketValue>1150</MarketValue>
-            <WorkToMake>58000</WorkToMake>
             <Mass>3.0</Mass>
             <AccuracyTouch>0.88</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -807,16 +718,6 @@
             <AccuracyLong>0.60</AccuracyLong>
             <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>22</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -1123,7 +1024,6 @@
         <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
         <statBases>
             <MarketValue>900</MarketValue>
-            <WorkToMake>42000</WorkToMake>
             <Mass>2.4</Mass>
             <AccuracyTouch>0.76</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -1131,16 +1031,6 @@
             <AccuracyLong>0.42</AccuracyLong>
             <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Laser_Weapon_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>22</Plasteel>
-            <ComponentSpacer>2</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>

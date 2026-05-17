@@ -18,7 +18,6 @@
         <soundInteract>Interact_Autopistol</soundInteract>
         <statBases>
             <MarketValue>2400</MarketValue>
-            <WorkToMake>75000</WorkToMake>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.88</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -26,16 +25,6 @@
             <AccuracyLong>0.52</AccuracyLong>
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Energy_Based_Weaponry</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>10</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>40</Plasteel>
-            <ComponentSpacer>5</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -105,7 +94,6 @@
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
             <MarketValue>2800</MarketValue>
-            <WorkToMake>95000</WorkToMake>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.88</AccuracyShort>
@@ -113,16 +101,6 @@
             <AccuracyLong>0.72</AccuracyLong>
             <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Energy_Based_Weaponry</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>11</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>60</Plasteel>
-            <ComponentSpacer>8</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>

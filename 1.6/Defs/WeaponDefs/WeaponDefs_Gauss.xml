@@ -18,7 +18,6 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
             <MarketValue>1300</MarketValue>
-            <WorkToMake>55000</WorkToMake>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -26,16 +25,6 @@
             <AccuracyLong>0.55</AccuracyLong>
             <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Gauss_Weapons_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>35</Plasteel>
-            <ComponentSpacer>3</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -98,7 +87,6 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
             <MarketValue>1700</MarketValue>
-            <WorkToMake>70000</WorkToMake>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -106,16 +94,6 @@
             <AccuracyLong>0.85</AccuracyLong>
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Gauss_Weapons_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>10</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>60</Plasteel>
-            <ComponentSpacer>6</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -179,7 +157,6 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
             <MarketValue>2400</MarketValue>
-            <WorkToMake>90000</WorkToMake>
             <Mass>8.0</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -187,16 +164,6 @@
             <AccuracyLong>0.50</AccuracyLong>
             <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Gauss_Weapons_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>11</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>90</Plasteel>
-            <ComponentSpacer>10</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -254,7 +221,6 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
             <MarketValue>2600</MarketValue>
-            <WorkToMake>80000</WorkToMake>
             <Mass>5.5</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
             <AccuracyShort>0.85</AccuracyShort>
@@ -262,16 +228,6 @@
             <AccuracyLong>0.95</AccuracyLong>
             <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
         </statBases>
-        <recipeMaker>
-            <researchPrerequisite>FCP_Research_Gauss_Weapons_Manufacturing</researchPrerequisite>
-            <skillRequirements>
-                <Crafting>11</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <costList>
-            <Plasteel>70</Plasteel>
-            <ComponentSpacer>8</ComponentSpacer>
-        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
