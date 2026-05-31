@@ -939,19 +939,19 @@
         <defName>FCP_Gun_Sprtel_Wood_9700_Unique</defName>
         <useHitPoints>false</useHitPoints>
         <label>Sprtel-Wood 9700</label>
-        <description>A civilian laser pistol manufactured by Sprtel-Wood, the 9700 model was marketed as a home defense weapon before the war. While not as powerful as military-grade energy weapons, its reliability and ease of use made it popular among settlers and traders.</description>
+        <description>An experimental lightweight Gatling Laser prototype developed by Sprtel-Wood. The 9700 model features an advanced lightweight frame and enhanced capacitor cycling system, allowing for a significantly higher rate of fire compared to standard Gatling Lasers while remaining far more portable. This unique pre-war prototype never entered mass production, making it exceptionally rare.</description>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Sprtel_Wood_9700a</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
+        <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
         <statBases>
-            <Mass>2.2</Mass>
+            <Mass>2.8</Mass>
             <AccuracyTouch>0.78</AccuracyTouch>
-            <AccuracyShort>0.72</AccuracyShort>
-            <AccuracyMedium>0.58</AccuracyMedium>
-            <AccuracyLong>0.45</AccuracyLong>
-            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <AccuracyShort>0.78</AccuracyShort>
+            <AccuracyMedium>0.68</AccuracyMedium>
+            <AccuracyLong>0.53</AccuracyLong>
+            <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
             <DeteriorationRate>0</DeteriorationRate>
             <Flammability>0</Flammability>
         </statBases>
@@ -961,8 +961,7 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <weaponTags>
-            <li>FCP_Energy_Weapon</li>
-            <li>FCP_Laser_Weapon</li>
+            <li>FCP_Heavy_Energy_Weapon</li>
         </weaponTags>
         <weaponClasses>
             <li>RangedLight</li>
@@ -971,9 +970,11 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Beam_Laser</defaultProjectile>
-                <warmupTime>1.1</warmupTime>
-                <range>16.9</range>
+                <defaultProjectile>FCP_Beam_Gatling_Laser</defaultProjectile>
+                <warmupTime>1.35</warmupTime>
+                <range>30.9</range>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <burstShotCount>18</burstShotCount>
                 <soundCast>FCP_Sound_Shot_Laser_Pistol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
@@ -981,7 +982,7 @@
         </verbs>
         <tools>
             <li>
-                <label>grip</label>
+                <label>stock</label>
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
@@ -1002,11 +1003,19 @@
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Unique</rarity>
             </li>
+            <li Class="FCP.Core.Backpacks.CompProperties_WeaponBackpack">
+                <backpackTexPath>Things/Pawn/Backpacks/Gatling_Laser_Backpack/FCP_Gatling_Laser_Backpack</backpackTexPath>
+                <backpackScale>1.0</backpackScale>
+                <drawBackOnlyWhenDrafted>false</drawBackOnlyWhenDrafted>
+                <northOffset>(0, 0.04, -0.10)</northOffset>
+                <southOffset>(0, -0.04, -0.10)</southOffset>
+                <eastOffset>(-0.3, 0.04, -0.10)</eastOffset>
+            </li>
         </comps>
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
             <li Class="FCP.Core.DeathEffectModExtension">
-                <effectChance>0.30</effectChance>
+                <effectChance>0.60</effectChance>
             </li>
         </modExtensions>
     </ThingDef>
