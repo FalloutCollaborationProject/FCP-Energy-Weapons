@@ -326,7 +326,7 @@
 			<texPath>Things/Weapons/Plasma/FCP_Plasma_Defender</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>FCP_Sound_Interact_Plasma_Pistol</soundInteract>
+		<soundInteract>FCP_Sound_Interact_Plasma_Defender</soundInteract>
 		<statBases>
 			<MarketValue>1300</MarketValue>
             <Mass>3.2</Mass>
@@ -354,7 +354,7 @@
 				<defaultProjectile>FCP_Bullet_Plasma</defaultProjectile>
 				<warmupTime>0.95</warmupTime>
 				<range>20.9</range>
-				<soundCast>FCP_Sound_Shot_Plasma_Pistol</soundCast>
+				<soundCast>FCP_Sound_Shot_Plasma_Defender</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>

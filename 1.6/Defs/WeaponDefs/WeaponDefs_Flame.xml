@@ -41,7 +41,7 @@
                 <range>12.9</range>
                 <warmupTime>1.2</warmupTime>
                 <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
-                <soundCast>Explosion_Flame</soundCast>
+                <soundCast>FCP_Sound_Shot_Flamer</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <targetParams>
                     <canTargetLocations>true</canTargetLocations>
@@ -129,7 +129,7 @@
                 <range>15.9</range>
                 <warmupTime>1.0</warmupTime>
                 <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
-                <soundCast>Explosion_Flame</soundCast>
+                <soundCast>FCP_Sound_Shot_Flamer</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <targetParams>
                     <canTargetLocations>true</canTargetLocations>
@@ -216,7 +216,7 @@
                 <range>18.9</range>
                 <warmupTime>0.8</warmupTime>
                 <ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
-                <soundCast>Explosion_Flame</soundCast>
+                <soundCast>FCP_Sound_Shot_Flamer</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <targetParams>
                     <canTargetLocations>true</canTargetLocations>

@@ -44,7 +44,7 @@
                 <warmupTime>1.0</warmupTime>
                 <range>22.9</range>
                 <forcedMissRadius>1.1</forcedMissRadius>
-                <soundCast>Shot_ChargeBlaster</soundCast>
+                <soundCast>FCP_Sound_Shot_Pulse</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -122,7 +122,7 @@
                 <burstShotCount>3</burstShotCount>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <forcedMissRadius>1.1</forcedMissRadius>
-                <soundCast>Shot_ChargeBlaster</soundCast>
+                <soundCast>FCP_Sound_Shot_Pulse</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>

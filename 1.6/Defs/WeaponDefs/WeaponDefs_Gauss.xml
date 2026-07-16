@@ -43,7 +43,7 @@
                 <defaultProjectile>FCP_Bullet_Gauss</defaultProjectile>
                 <warmupTime>1.0</warmupTime>
                 <range>22.0</range>
-                <soundCast>Shot_ChargeBlaster</soundCast>
+                <soundCast>FCP_Sound_Shot_Gauss_Pistol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
