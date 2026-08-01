@@ -16,8 +16,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Energy_Based_Weaponry</li>
+                <li>FCP_Research_Blueprint_YK32PulsePistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>2400</MarketValue>
+            <WorkToMake>30000</WorkToMake>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.88</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -25,6 +39,10 @@
             <AccuracyLong>0.52</AccuracyLong>
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -92,8 +110,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Energy_Based_Weaponry</li>
+                <li>FCP_Research_Blueprint_YK42BPulseRifle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>2800</MarketValue>
+            <WorkToMake>30000</WorkToMake>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.88</AccuracyShort>
@@ -101,6 +133,10 @@
             <AccuracyLong>0.72</AccuracyLong>
             <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>

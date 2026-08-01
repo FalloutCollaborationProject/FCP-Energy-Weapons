@@ -16,8 +16,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Laser_Weapon_Manufacturing</li>
+                <li>FCP_Research_Blueprint_LaserPistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>800</MarketValue>
+            <WorkToMake>35000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -25,6 +39,10 @@
             <AccuracyLong>0.50</AccuracyLong>
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -90,8 +108,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Laser_Weapon_Manufacturing</li>
+                <li>FCP_Research_Blueprint_LaserRifle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>1200</MarketValue>
+            <WorkToMake>35000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -99,6 +131,10 @@
             <AccuracyLong>0.70</AccuracyLong>
             <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -164,8 +200,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Tri_Beam_Laser_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Laser_Weapon_Manufacturing</li>
+                <li>FCP_Research_Blueprint_TriBeamLaserRifle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>1400</MarketValue>
+            <WorkToMake>35000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.90</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -173,6 +223,10 @@
             <AccuracyLong>0.35</AccuracyLong>
             <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -240,8 +294,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Laser_Weapon_Manufacturing</li>
+                <li>FCP_Research_Blueprint_GatlingLaser</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>1500</MarketValue>
+            <WorkToMake>35000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -249,6 +317,10 @@
             <AccuracyLong>0.50</AccuracyLong>
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -326,8 +398,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_RCW</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Laser_Weapon_Manufacturing</li>
+                <li>FCP_Research_Blueprint_LaserRCW</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>1100</MarketValue>
+            <WorkToMake>35000</WorkToMake>
             <Mass>1.6</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
@@ -335,6 +421,10 @@
             <AccuracyLong>0.50</AccuracyLong>
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -402,8 +492,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Recharger_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Laser_Weapon_Manufacturing</li>
+                <li>FCP_Research_Blueprint_RechargerRifle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>1250</MarketValue>
+            <WorkToMake>35000</WorkToMake>
             <Mass>2.1</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -411,6 +515,10 @@
             <AccuracyLong>0.70</AccuracyLong>
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -473,8 +581,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Recharger_Pistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Laser_Weapon_Manufacturing</li>
+                <li>FCP_Research_Blueprint_RechargerPistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>850</MarketValue>
+            <WorkToMake>35000</WorkToMake>
             <Mass>1.6</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -482,6 +604,10 @@
             <AccuracyLong>0.68</AccuracyLong>
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -623,8 +749,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Laser_Weapon_Manufacturing</li>
+                <li>FCP_Research_Blueprint_GatlingLaserMkI</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>1600</MarketValue>
+            <WorkToMake>35000</WorkToMake>
             <Mass>4.0</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -632,6 +772,10 @@
             <AccuracyLong>0.45</AccuracyLong>
             <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -709,8 +853,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Laser_Weapon_Manufacturing</li>
+                <li>FCP_Research_Blueprint_LaserCarbine</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>1150</MarketValue>
+            <WorkToMake>35000</WorkToMake>
             <Mass>3.0</Mass>
             <AccuracyTouch>0.88</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -718,6 +876,10 @@
             <AccuracyLong>0.60</AccuracyLong>
             <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -1031,8 +1193,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>FCP_Sound_Interact_Laser_Pistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Laser_Weapon_Manufacturing</li>
+                <li>FCP_Research_Blueprint_Wattz1000LaserPistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>900</MarketValue>
+            <WorkToMake>35000</WorkToMake>
             <Mass>2.4</Mass>
             <AccuracyTouch>0.76</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -1040,6 +1216,10 @@
             <AccuracyLong>0.42</AccuracyLong>
             <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>

@@ -16,8 +16,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gauss_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_PPK12GaussPistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>1300</MarketValue>
+            <WorkToMake>45000</WorkToMake>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -25,6 +39,11 @@
             <AccuracyLong>0.55</AccuracyLong>
             <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>50</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -85,8 +104,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gauss_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_M72GaussRifle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>1700</MarketValue>
+            <WorkToMake>45000</WorkToMake>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.82</AccuracyShort>
@@ -94,6 +127,11 @@
             <AccuracyLong>0.85</AccuracyLong>
             <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>50</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -155,8 +193,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gauss_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_GaussMinigun</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>2400</MarketValue>
+            <WorkToMake>45000</WorkToMake>
             <Mass>8.0</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -164,6 +216,11 @@
             <AccuracyLong>0.50</AccuracyLong>
             <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>50</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
@@ -219,8 +276,22 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gauss_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_GaussSniperRifle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <MarketValue>2600</MarketValue>
+            <WorkToMake>45000</WorkToMake>
             <Mass>5.5</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
             <AccuracyShort>0.85</AccuracyShort>
@@ -228,6 +299,11 @@
             <AccuracyLong>0.95</AccuracyLong>
             <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
         </statBases>
+        <costList>
+            <Steel>50</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
             <li>RewardStandardQualitySuper</li>
