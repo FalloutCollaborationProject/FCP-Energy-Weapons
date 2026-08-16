@@ -94,7 +94,8 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
-		<statBases>			<MarketValue>1900</MarketValue>			<MarketValue>1600</MarketValue>
+		<statBases>
+			<MarketValue>1600</MarketValue>
             <Mass>4.2</Mass>
 			<AccuracyTouch>0.85</AccuracyTouch>
 			<AccuracyShort>0.80</AccuracyShort>
@@ -247,7 +248,9 @@
 		</graphicData>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
-		<statBases>			<Mass>3.6</Mass>
+		<statBases>
+			<MarketValue>2100</MarketValue>
+			<Mass>3.6</Mass>
 			<AccuracyTouch>0.70</AccuracyTouch>
 			<AccuracyShort>0.80</AccuracyShort>
 			<AccuracyMedium>0.65</AccuracyMedium>
@@ -461,6 +464,9 @@
 			<li Class="FCP.Core.CompProperties_LabelColored">
 				<rarity>Rare</rarity>
 			</li>
+            <li Class="FCP.Core.CompProperties_PositionAttributes">
+                <HeldDrawOffset>(0.2, -0.3)</HeldDrawOffset>
+            </li>
 		</comps>
 		<modExtensions>
 			<li Class="FCP.Core.DeathEffectModExtension">
