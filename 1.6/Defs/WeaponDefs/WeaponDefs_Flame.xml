@@ -123,6 +123,7 @@
             <texPath>Things/Weapons/Flame/FCP_Flamer_mkII</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker MayRequire="Rick.FCP.Wastelanders">
             <researchPrerequisites>
@@ -224,6 +225,7 @@
             <texPath>Things/Weapons/Flame/FCP_Heavy_Incinerator</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Autopistol</soundInteract>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>

@@ -403,7 +403,6 @@
 			<texPath>Things/Weapons/Plasma/FCP_Plasma_Caster_mkI</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<equippedAngleOffset>45</equippedAngleOffset>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
 		<statBases>
 			<MarketValue>2000</MarketValue>
