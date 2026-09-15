@@ -486,7 +486,7 @@
     <ThingDef ParentName="FCP_Machining_Gun_Base">
         <defName>FCP_Gun_Recharger_Rifle</defName>
         <label>Recharger Rifle</label>
-        <description>The recharger rifle was the first energy weapon featuring a microfusion breeder. It replenishes its ammunition automatically, no reloading required. However, the underlying technology wasn�t very sophisticated yet. It can fire rapidly, but the projectiles do significantly less damage compared to a laser rifle. The inefficient breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is a considerably time in between those bursts. At least it usually is a lot cheaper than a laser rifle.</description>
+        <description>The recharger rifle was the first energy weapon featuring a microfusion breeder. It replenishes its ammunition automatically, no reloading required. However, the underlying technology wasn't very sophisticated yet. It can fire rapidly, but the projectiles do significantly less damage compared to a laser rifle. The inefficient breeder generates ammunition at a slow rate, meaning it can shoot bursts of projectiles fast, but there is a considerably time in between those bursts. At least it usually is a lot cheaper than a laser rifle.</description>
         <graphicData>
             <texPath>Things/Weapons/Laser/FCP_Recharger_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>

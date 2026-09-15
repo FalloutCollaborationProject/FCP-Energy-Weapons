@@ -20,6 +20,19 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Pistol</soundInteract>
+		<recipeMaker MayRequire="Rick.FCP.Wastelanders">
+			<researchPrerequisites>
+				<li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+				<li>FCP_Research_Blueprint_PlasmaPistol</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Complex_Weapons_Workbench</li>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
 		<statBases>
 			<MarketValue>1200</MarketValue>
             <Mass>3.6</Mass>
@@ -29,6 +42,12 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 		</statBases>
+		<costList>
+			<Steel>35</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plasteel>15</Plasteel>
+			<Gold>5</Gold>
+		</costList>
         <thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 			<li>RewardStandardQualitySuper</li>
@@ -94,6 +113,19 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
+		<recipeMaker MayRequire="Rick.FCP.Wastelanders">
+			<researchPrerequisites>
+				<li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+				<li>FCP_Research_Blueprint_PlasmaRifle</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Complex_Weapons_Workbench</li>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
 		<statBases>
 			<MarketValue>1600</MarketValue>
             <Mass>4.2</Mass>
@@ -103,6 +135,12 @@
 			<AccuracyLong>0.60</AccuracyLong>
 			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
 		</statBases>
+		<costList>
+			<Steel>50</Steel>
+			<ComponentIndustrial>9</ComponentIndustrial>
+			<Plasteel>22</Plasteel>
+			<Gold>8</Gold>
+		</costList>
         <thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 			<li>RewardStandardQualitySuper</li>
@@ -168,6 +206,19 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Multiplas_Rifle</soundInteract>
+		<recipeMaker MayRequire="Rick.FCP.Wastelanders">
+			<researchPrerequisites>
+				<li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+				<li>FCP_Research_Blueprint_MultiplasRifle</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Complex_Weapons_Workbench</li>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
 		<statBases>
 			<MarketValue>1800</MarketValue>
             <Mass>4.5</Mass>
@@ -177,6 +228,13 @@
 			<AccuracyLong>0.10</AccuracyLong>
 			<RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
 		</statBases>
+		<costList>
+			<Steel>55</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>25</Plasteel>
+			<Gold>9</Gold>
+		</costList>
         <thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 			<li>RewardStandardQualitySuper</li>
@@ -240,7 +298,7 @@
 		<label>Plasma Caster</label>
 		<description>The plasma caster functions very similar to its rifle-based counterpart. 
             It was first developed as an industrial tool but was soon after downscaled 
-            and adapted as a weapon, it�s still very heavy though. Compared to the plasma 
+            and adapted as a weapon, it's still very heavy though. Compared to the plasma 
             rifle, it fires both faster and harder-hitting, but is significantly less accurate.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Plasma/FCP_Plasma_Caster_mkII</texPath>
@@ -248,6 +306,19 @@
 		</graphicData>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
+		<recipeMaker MayRequire="Rick.FCP.Wastelanders">
+			<researchPrerequisites>
+				<li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+				<li>FCP_Research_Blueprint_PlasmaCaster</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Complex_Weapons_Workbench</li>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
 		<statBases>
 			<MarketValue>2100</MarketValue>
 			<Mass>3.6</Mass>
@@ -257,6 +328,13 @@
 			<AccuracyLong>0.60</AccuracyLong>
 			<RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
 		</statBases>
+		<costList>
+			<Steel>70</Steel>
+			<ComponentIndustrial>13</ComponentIndustrial>
+			<ComponentSpacer>6</ComponentSpacer>
+			<Plasteel>35</Plasteel>
+			<Gold>12</Gold>
+		</costList>
         <thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 			<li>RewardStandardQualitySuper</li>
@@ -330,6 +408,19 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Defender</soundInteract>
+		<recipeMaker MayRequire="Rick.FCP.Wastelanders">
+			<researchPrerequisites>
+				<li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+				<li>FCP_Research_Blueprint_PlasmaDefender</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Complex_Weapons_Workbench</li>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
 		<statBases>
 			<MarketValue>1300</MarketValue>
             <Mass>3.2</Mass>
@@ -339,6 +430,12 @@
 			<AccuracyLong>0.48</AccuracyLong>
 			<RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
 		</statBases>
+		<costList>
+			<Steel>38</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<Plasteel>16</Plasteel>
+			<Gold>6</Gold>
+		</costList>
         <thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 			<li>RewardStandardQualitySuper</li>
@@ -404,6 +501,19 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
+		<recipeMaker MayRequire="Rick.FCP.Wastelanders">
+			<researchPrerequisites>
+				<li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+				<li>FCP_Research_Blueprint_PlasmaCasterMkI</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Complex_Weapons_Workbench</li>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
 		<statBases>
 			<MarketValue>2000</MarketValue>
             <Mass>4.8</Mass>
@@ -413,6 +523,13 @@
 			<AccuracyLong>0.55</AccuracyLong>
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 		</statBases>
+		<costList>
+			<Steel>65</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>32</Plasteel>
+			<Gold>11</Gold>
+		</costList>
         <thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 			<li>RewardStandardQualitySuper</li>
@@ -485,6 +602,19 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Pistol</soundInteract>
+		<recipeMaker MayRequire="Rick.FCP.Wastelanders">
+			<researchPrerequisites>
+				<li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+				<li>FCP_Research_Blueprint_Glock86PlasmaPistol</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Complex_Weapons_Workbench</li>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
 		<statBases>
 			<MarketValue>1400</MarketValue>
             <Mass>3.0</Mass>
@@ -494,6 +624,12 @@
 			<AccuracyLong>0.58</AccuracyLong>
 			<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
 		</statBases>
+		<costList>
+			<Steel>40</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<Plasteel>18</Plasteel>
+			<Gold>7</Gold>
+		</costList>
         <thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 			<li>RewardStandardQualitySuper</li>
@@ -559,6 +695,19 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>FCP_Sound_Interact_Plasma_Rifle</soundInteract>
+		<recipeMaker MayRequire="Rick.FCP.Wastelanders">
+			<researchPrerequisites>
+				<li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+				<li>FCP_Research_Blueprint_P94PlasmaRifle</li>
+			</researchPrerequisites>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Complex_Weapons_Workbench</li>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
 		<statBases>
 			<MarketValue>1700</MarketValue>
             <Mass>4.0</Mass>
@@ -568,6 +717,12 @@
 			<AccuracyLong>0.65</AccuracyLong>
 			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 		</statBases>
+		<costList>
+			<Steel>52</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Plasteel>24</Plasteel>
+			<Gold>8</Gold>
+		</costList>
         <thingSetMakerTags>
 			<li>RewardStandardLowFreq</li>
 			<li>RewardStandardQualitySuper</li>
@@ -737,19 +892,18 @@
 			<Plasteel>40</Plasteel>
 			<Gold>15</Gold>
 		</costList>
-		<recipeMaker>
-			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Smith</effectWorking>
-			<soundWorking>Recipe_Machining</soundWorking>
-			<recipeUsers>
-				<li>FCP_Production_Fabrication_Workbench</li>
-			</recipeUsers>
-			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+		<recipeMaker MayRequire="Rick.FCP.Wastelanders">
+			<researchPrerequisites>
+				<li>FCP_Research_Plasma_Weapons_Manufacturing</li>
+				<li>FCP_Research_Blueprint_PlasmaMachineGun</li>
+			</researchPrerequisites>
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
+			<recipeUsers>
+				<li>FCP_Production_Complex_Weapons_Workbench</li>
+				<li>TableMachining</li>
+			</recipeUsers>
 		</recipeMaker>
 		<smeltProducts>
 			<Steel>40</Steel>
